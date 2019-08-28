@@ -515,6 +515,7 @@ export declare const en: {
             passwordMinRequirements: string;
             bothPasswordMustMatch: string;
             titleRequired: string;
+            postRegisterMessage: string;
         };
     };
 };

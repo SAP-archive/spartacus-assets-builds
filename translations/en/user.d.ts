@@ -62,5 +62,6 @@ export declare const user: {
         passwordMinRequirements: string;
         bothPasswordMustMatch: string;
         titleRequired: string;
+        postRegisterMessage: string;
     };
 };
