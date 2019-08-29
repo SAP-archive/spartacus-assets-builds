@@ -110,6 +110,9 @@ export declare const en: {
             confirmThatRead: string;
             placeOrder: string;
             termsAndConditions: string;
+            editShippingAddress: string;
+            editShippingMethod: string;
+            editPaymentMethod: string;
         };
         checkoutShipping: {
             shippingMethod: string;
