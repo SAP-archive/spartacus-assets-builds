@@ -34,6 +34,7 @@ export declare const myAccount: {
         confirmAccountClosureMessage: string;
         closeMyAccount: string;
         accountClosedSuccessfully: string;
+        accountClosedFailure: string;
     };
     updateEmailForm: {
         newEmailAddress: {
