@@ -378,6 +378,8 @@ export declare const en: {
             showLess: string;
             showMore: string;
             sortByRelevance: string;
+            backToTopBtn: string;
+            showMoreBtn: string;
         };
         productFacetNavigation: {
             filterBy: {
