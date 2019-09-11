@@ -18,6 +18,18 @@ export declare const myAccount: {
         statusDisplay_Error: string;
         statusDisplay_open: string;
         statusDisplay_processing: string;
+        consignmentTracking: {
+            action: string;
+            dialog: {
+                header: string;
+                shipped: string;
+                estimate: string;
+                carrier: string;
+                trackingId: string;
+                noTracking: string;
+                loadingHeader: string;
+            };
+        };
     };
     orderHistory: {
         orderHistory: string;
