@@ -17,5 +17,7 @@ export declare const storeFinder: {
         contactUs: string;
         searchBox: string;
         backToList: string;
+        noStoresMessage: string;
+        geolocationNotEnabled: string;
     };
 };

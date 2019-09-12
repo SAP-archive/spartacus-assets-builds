@@ -467,6 +467,8 @@ export declare const en: {
             contactUs: string;
             searchBox: string;
             backToList: string;
+            noStoresMessage: string;
+            geolocationNotEnabled: string;
         };
     };
     user: {
