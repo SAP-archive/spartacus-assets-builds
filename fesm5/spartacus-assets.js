@@ -41,7 +41,7 @@ var translationChunksConfig = {
         'addToCart',
         'CMSTabParagraphContainer',
     ],
-    user: ['forgottenPassword', 'loginForm', 'register'],
+    user: ['forgottenPassword', 'loginForm', 'register', 'checkoutLogin'],
 };
 
 var cart = {
@@ -93,6 +93,8 @@ var checkout = {
         invoiceHasBeenSentByEmail: 'An invoice has been sent by email. You should receive it soon.',
         orderItems: 'Order Items',
         orderPlacedSuccessfully: 'Order placed successfully',
+        createAccount: 'Create an account?',
+        createAccountForNext: 'Create an account for <{{email}}> for a faster checkout on your next visit.',
     },
     checkoutReview: {
         review: 'Review',
@@ -457,6 +459,7 @@ var user = {
             placeholder: 'Password',
         },
         wrongEmailFormat: 'This is not a valid email format.',
+        guestCheckout: 'Guest Checkout',
     },
     register: {
         confirmPassword: {
@@ -497,6 +500,19 @@ var user = {
         bothPasswordMustMatch: 'Both password must match',
         titleRequired: 'Title is required.',
         postRegisterMessage: 'Please log in with provided credentials.',
+    },
+    checkoutLogin: {
+        emailAddress: {
+            label: 'Email address',
+            placeholder: 'Enter email',
+        },
+        confirmEmail: {
+            label: 'Confirm email',
+            placeholder: 'Confirm email',
+        },
+        continue: 'Continue',
+        emailIsRequired: 'Invalid email format',
+        emailsMustMatch: 'Email does not match',
     },
 };
 

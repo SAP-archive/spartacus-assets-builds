@@ -19,6 +19,8 @@ export declare const checkout: {
         invoiceHasBeenSentByEmail: string;
         orderItems: string;
         orderPlacedSuccessfully: string;
+        createAccount: string;
+        createAccountForNext: string;
     };
     checkoutReview: {
         review: string;

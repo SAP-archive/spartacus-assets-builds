@@ -103,6 +103,8 @@ export declare const en: {
             invoiceHasBeenSentByEmail: string;
             orderItems: string;
             orderPlacedSuccessfully: string;
+            createAccount: string;
+            createAccountForNext: string;
         };
         checkoutReview: {
             review: string;
@@ -497,6 +499,7 @@ export declare const en: {
                 placeholder: string;
             };
             wrongEmailFormat: string;
+            guestCheckout: string;
         };
         register: {
             confirmPassword: {
@@ -536,6 +539,19 @@ export declare const en: {
             bothPasswordMustMatch: string;
             titleRequired: string;
             postRegisterMessage: string;
+        };
+        checkoutLogin: {
+            emailAddress: {
+                label: string;
+                placeholder: string;
+            };
+            confirmEmail: {
+                label: string;
+                placeholder: string;
+            };
+            continue: string;
+            emailIsRequired: string;
+            emailsMustMatch: string;
         };
     };
 };

@@ -24,6 +24,7 @@ export declare const user: {
             placeholder: string;
         };
         wrongEmailFormat: string;
+        guestCheckout: string;
     };
     register: {
         confirmPassword: {
@@ -63,5 +64,18 @@ export declare const user: {
         bothPasswordMustMatch: string;
         titleRequired: string;
         postRegisterMessage: string;
+    };
+    checkoutLogin: {
+        emailAddress: {
+            label: string;
+            placeholder: string;
+        };
+        confirmEmail: {
+            label: string;
+            placeholder: string;
+        };
+        continue: string;
+        emailIsRequired: string;
+        emailsMustMatch: string;
     };
 };
