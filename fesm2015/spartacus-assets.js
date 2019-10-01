@@ -184,7 +184,7 @@ const common = {
         unknownError: 'An unknown error occurred',
         validationErrors: {
             missing: {
-                card_cardType: 'The credit card selected is not supported. Please select another.',
+                card_cardType: 'The selected credit card is not supported. Please select another.',
                 card_accountNumber: 'The credit card number entered is not valid.',
                 card_cvNumber: 'The security code entered is not valid.',
                 card_expirationMonth: 'The credit card expiration date entered is not valid.',
