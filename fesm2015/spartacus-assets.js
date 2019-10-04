@@ -44,6 +44,92 @@ const translationChunksConfig = {
     user: ['forgottenPassword', 'loginForm', 'register', 'checkoutLogin'],
 };
 
+const address = {
+    addressForm: {
+        title: 'Title',
+        firstName: {
+            label: 'First name',
+            placeholder: 'First Name',
+        },
+        lastName: {
+            label: 'Last name',
+            placeholder: 'Last Name',
+        },
+        address1: 'Address 1',
+        address2: 'Address 2 (optional)',
+        country: 'Country',
+        city: {
+            label: 'City',
+            placeholder: 'City',
+        },
+        state: 'State',
+        zipCode: {
+            label: 'Zip code',
+            placeholder: 'Postal Code/Zip',
+        },
+        phoneNumber: {
+            label: 'Phone number (optional)',
+            placeholder: '(555) 555 - 0123',
+        },
+        saveAsDefault: 'Save as default',
+        chooseAddress: 'Choose address',
+        streetAddress: 'Street Address',
+        aptSuite: 'Apt, Suite',
+        selectOne: 'Select One...',
+        setAsDefault: 'Set as default',
+        titleRequired: 'Title is required.',
+        userAddressAddSuccess: 'New address was added successfully!',
+        userAddressUpdateSuccess: 'Address updated successfully!',
+        userAddressDeleteSuccess: 'Address deleted successfully!',
+        invalidAddress: 'Invalid Address',
+    },
+    addressBook: {
+        addNewShippingAddress: 'Add a new shipping address',
+        editShippingAddress: 'Edit shipping address',
+        areYouSureToDeleteAddress: 'Are you sure you want to delete this address?',
+        addNewAddress: 'Add new address',
+        addAddress: 'Add address',
+        updateAddress: 'Update address',
+        backToAddressList: 'Back to address list',
+    },
+    addressCard: {
+        default: 'DEFAULT',
+        selected: 'Selected',
+        setAsDefault: 'Set as default',
+        shipTo: 'Ship To',
+        billTo: 'Bill To',
+    },
+};
+
+const asm = {
+    asm: {
+        mainLogoLabel: 'SAP',
+        mainTitle: 'Assisted Service Mode',
+        logout: 'Sign Out',
+        hideUi: 'Close ASM',
+        loginForm: {
+            submit: 'Sign In',
+            userId: {
+                label: 'Agent ID',
+                required: 'Agent ID is required',
+            },
+            password: {
+                label: 'Password',
+                required: 'Password is required',
+            },
+        },
+        customerSearch: {
+            searchTerm: {
+                label: 'Customer Email Address',
+                required: 'Customer Email Address is required',
+            },
+            submit: 'Start Session',
+            noMatch: 'No customer found for "{{uid}}"',
+        },
+        csagentTokenExpired: 'Your customer support agent session is expired.',
+    },
+};
+
 const cart = {
     cartDetails: {
         id: 'ID',
@@ -329,6 +415,44 @@ const myAccount = {
     },
 };
 
+const payment = {
+    paymentForm: {
+        payment: 'Payment',
+        choosePaymentMethod: 'Choose a payment method',
+        paymentType: 'Payment Type',
+        accountHolderName: {
+            label: 'Account Holder Name',
+            placeholder: 'Account Holder Name',
+        },
+        cardNumber: 'Card Number',
+        expirationDate: 'Expiration Date',
+        securityCode: 'Security code (CVV)',
+        securityCodeTitle: 'Card Verification Value',
+        saveAsDefault: 'Save as default',
+        setAsDefault: 'Set as default',
+        billingAddress: 'Billing address',
+        sameAsShippingAddress: 'Same as shipping address',
+        selectOne: 'Select One...',
+        monthMask: 'MM',
+        yearMask: 'YYYY',
+        useThisPayment: 'Use this payment',
+        addNewPayment: 'Add New Payment',
+        changePayment: 'Change Payment',
+    },
+    paymentMethods: {
+        paymentMethods: 'Payment methods',
+        newPaymentMethodsAreAddedDuringCheckout: 'New payment methods are added during checkout.',
+        invalidField: 'InvalidField: {{ field }}',
+    },
+    paymentCard: {
+        deleteConfirmation: 'Are you sure you want to delete this payment method?',
+        setAsDefault: 'Set as default',
+        expires: 'Expires: {{ month }}/{{ year }}',
+        defaultPaymentMethod: 'Default Payment Method',
+        selected: 'Selected',
+    },
+};
+
 const product = {
     productDetails: {
         id: 'ID',
@@ -516,103 +640,9 @@ const user = {
     },
 };
 
-const payment = {
-    paymentForm: {
-        payment: 'Payment',
-        choosePaymentMethod: 'Choose a payment method',
-        paymentType: 'Payment Type',
-        accountHolderName: {
-            label: 'Account Holder Name',
-            placeholder: 'Account Holder Name',
-        },
-        cardNumber: 'Card Number',
-        expirationDate: 'Expiration Date',
-        securityCode: 'Security code (CVV)',
-        securityCodeTitle: 'Card Verification Value',
-        saveAsDefault: 'Save as default',
-        setAsDefault: 'Set as default',
-        billingAddress: 'Billing address',
-        sameAsShippingAddress: 'Same as shipping address',
-        selectOne: 'Select One...',
-        monthMask: 'MM',
-        yearMask: 'YYYY',
-        useThisPayment: 'Use this payment',
-        addNewPayment: 'Add New Payment',
-        changePayment: 'Change Payment',
-    },
-    paymentMethods: {
-        paymentMethods: 'Payment methods',
-        newPaymentMethodsAreAddedDuringCheckout: 'New payment methods are added during checkout.',
-        invalidField: 'InvalidField: {{ field }}',
-    },
-    paymentCard: {
-        deleteConfirmation: 'Are you sure you want to delete this payment method?',
-        setAsDefault: 'Set as default',
-        expires: 'Expires: {{ month }}/{{ year }}',
-        defaultPaymentMethod: 'Default Payment Method',
-        selected: 'Selected',
-    },
-};
-
-const address = {
-    addressForm: {
-        title: 'Title',
-        firstName: {
-            label: 'First name',
-            placeholder: 'First Name',
-        },
-        lastName: {
-            label: 'Last name',
-            placeholder: 'Last Name',
-        },
-        address1: 'Address 1',
-        address2: 'Address 2 (optional)',
-        country: 'Country',
-        city: {
-            label: 'City',
-            placeholder: 'City',
-        },
-        state: 'State',
-        zipCode: {
-            label: 'Zip code',
-            placeholder: 'Postal Code/Zip',
-        },
-        phoneNumber: {
-            label: 'Phone number (optional)',
-            placeholder: '(555) 555 - 0123',
-        },
-        saveAsDefault: 'Save as default',
-        chooseAddress: 'Choose address',
-        streetAddress: 'Street Address',
-        aptSuite: 'Apt, Suite',
-        selectOne: 'Select One...',
-        setAsDefault: 'Set as default',
-        titleRequired: 'Title is required.',
-        userAddressAddSuccess: 'New address was added successfully!',
-        userAddressUpdateSuccess: 'Address updated successfully!',
-        userAddressDeleteSuccess: 'Address deleted successfully!',
-        invalidAddress: 'Invalid Address',
-    },
-    addressBook: {
-        addNewShippingAddress: 'Add a new shipping address',
-        editShippingAddress: 'Edit shipping address',
-        areYouSureToDeleteAddress: 'Are you sure you want to delete this address?',
-        addNewAddress: 'Add new address',
-        addAddress: 'Add address',
-        updateAddress: 'Update address',
-        backToAddressList: 'Back to address list',
-    },
-    addressCard: {
-        default: 'DEFAULT',
-        selected: 'Selected',
-        setAsDefault: 'Set as default',
-        shipTo: 'Ship To',
-        billTo: 'Bill To',
-    },
-};
-
 const en = {
     address,
+    asm,
     cart,
     checkout,
     common,
@@ -636,5 +666,5 @@ const translations = {
  * Generated bundle index. Do not edit.
  */
 
-export { translationChunksConfig, translations, en as ɵa, address as ɵb, cart as ɵc, checkout as ɵd, common as ɵe, myAccount as ɵf, payment as ɵg, product as ɵh, pwa as ɵi, storeFinder as ɵj, user as ɵk };
+export { translationChunksConfig, translations, en as ɵa, address as ɵb, asm as ɵc, cart as ɵd, checkout as ɵe, common as ɵf, myAccount as ɵg, payment as ɵh, product as ɵi, pwa as ɵj, storeFinder as ɵk, user as ɵl };
 //# sourceMappingURL=spartacus-assets.js.map

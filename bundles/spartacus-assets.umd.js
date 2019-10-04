@@ -50,6 +50,92 @@
         user: ['forgottenPassword', 'loginForm', 'register', 'checkoutLogin'],
     };
 
+    var address = {
+        addressForm: {
+            title: 'Title',
+            firstName: {
+                label: 'First name',
+                placeholder: 'First Name',
+            },
+            lastName: {
+                label: 'Last name',
+                placeholder: 'Last Name',
+            },
+            address1: 'Address 1',
+            address2: 'Address 2 (optional)',
+            country: 'Country',
+            city: {
+                label: 'City',
+                placeholder: 'City',
+            },
+            state: 'State',
+            zipCode: {
+                label: 'Zip code',
+                placeholder: 'Postal Code/Zip',
+            },
+            phoneNumber: {
+                label: 'Phone number (optional)',
+                placeholder: '(555) 555 - 0123',
+            },
+            saveAsDefault: 'Save as default',
+            chooseAddress: 'Choose address',
+            streetAddress: 'Street Address',
+            aptSuite: 'Apt, Suite',
+            selectOne: 'Select One...',
+            setAsDefault: 'Set as default',
+            titleRequired: 'Title is required.',
+            userAddressAddSuccess: 'New address was added successfully!',
+            userAddressUpdateSuccess: 'Address updated successfully!',
+            userAddressDeleteSuccess: 'Address deleted successfully!',
+            invalidAddress: 'Invalid Address',
+        },
+        addressBook: {
+            addNewShippingAddress: 'Add a new shipping address',
+            editShippingAddress: 'Edit shipping address',
+            areYouSureToDeleteAddress: 'Are you sure you want to delete this address?',
+            addNewAddress: 'Add new address',
+            addAddress: 'Add address',
+            updateAddress: 'Update address',
+            backToAddressList: 'Back to address list',
+        },
+        addressCard: {
+            default: 'DEFAULT',
+            selected: 'Selected',
+            setAsDefault: 'Set as default',
+            shipTo: 'Ship To',
+            billTo: 'Bill To',
+        },
+    };
+
+    var asm = {
+        asm: {
+            mainLogoLabel: 'SAP',
+            mainTitle: 'Assisted Service Mode',
+            logout: 'Sign Out',
+            hideUi: 'Close ASM',
+            loginForm: {
+                submit: 'Sign In',
+                userId: {
+                    label: 'Agent ID',
+                    required: 'Agent ID is required',
+                },
+                password: {
+                    label: 'Password',
+                    required: 'Password is required',
+                },
+            },
+            customerSearch: {
+                searchTerm: {
+                    label: 'Customer Email Address',
+                    required: 'Customer Email Address is required',
+                },
+                submit: 'Start Session',
+                noMatch: 'No customer found for "{{uid}}"',
+            },
+            csagentTokenExpired: 'Your customer support agent session is expired.',
+        },
+    };
+
     var cart = {
         cartDetails: {
             id: 'ID',
@@ -335,6 +421,44 @@
         },
     };
 
+    var payment = {
+        paymentForm: {
+            payment: 'Payment',
+            choosePaymentMethod: 'Choose a payment method',
+            paymentType: 'Payment Type',
+            accountHolderName: {
+                label: 'Account Holder Name',
+                placeholder: 'Account Holder Name',
+            },
+            cardNumber: 'Card Number',
+            expirationDate: 'Expiration Date',
+            securityCode: 'Security code (CVV)',
+            securityCodeTitle: 'Card Verification Value',
+            saveAsDefault: 'Save as default',
+            setAsDefault: 'Set as default',
+            billingAddress: 'Billing address',
+            sameAsShippingAddress: 'Same as shipping address',
+            selectOne: 'Select One...',
+            monthMask: 'MM',
+            yearMask: 'YYYY',
+            useThisPayment: 'Use this payment',
+            addNewPayment: 'Add New Payment',
+            changePayment: 'Change Payment',
+        },
+        paymentMethods: {
+            paymentMethods: 'Payment methods',
+            newPaymentMethodsAreAddedDuringCheckout: 'New payment methods are added during checkout.',
+            invalidField: 'InvalidField: {{ field }}',
+        },
+        paymentCard: {
+            deleteConfirmation: 'Are you sure you want to delete this payment method?',
+            setAsDefault: 'Set as default',
+            expires: 'Expires: {{ month }}/{{ year }}',
+            defaultPaymentMethod: 'Default Payment Method',
+            selected: 'Selected',
+        },
+    };
+
     var product = {
         productDetails: {
             id: 'ID',
@@ -522,103 +646,9 @@
         },
     };
 
-    var payment = {
-        paymentForm: {
-            payment: 'Payment',
-            choosePaymentMethod: 'Choose a payment method',
-            paymentType: 'Payment Type',
-            accountHolderName: {
-                label: 'Account Holder Name',
-                placeholder: 'Account Holder Name',
-            },
-            cardNumber: 'Card Number',
-            expirationDate: 'Expiration Date',
-            securityCode: 'Security code (CVV)',
-            securityCodeTitle: 'Card Verification Value',
-            saveAsDefault: 'Save as default',
-            setAsDefault: 'Set as default',
-            billingAddress: 'Billing address',
-            sameAsShippingAddress: 'Same as shipping address',
-            selectOne: 'Select One...',
-            monthMask: 'MM',
-            yearMask: 'YYYY',
-            useThisPayment: 'Use this payment',
-            addNewPayment: 'Add New Payment',
-            changePayment: 'Change Payment',
-        },
-        paymentMethods: {
-            paymentMethods: 'Payment methods',
-            newPaymentMethodsAreAddedDuringCheckout: 'New payment methods are added during checkout.',
-            invalidField: 'InvalidField: {{ field }}',
-        },
-        paymentCard: {
-            deleteConfirmation: 'Are you sure you want to delete this payment method?',
-            setAsDefault: 'Set as default',
-            expires: 'Expires: {{ month }}/{{ year }}',
-            defaultPaymentMethod: 'Default Payment Method',
-            selected: 'Selected',
-        },
-    };
-
-    var address = {
-        addressForm: {
-            title: 'Title',
-            firstName: {
-                label: 'First name',
-                placeholder: 'First Name',
-            },
-            lastName: {
-                label: 'Last name',
-                placeholder: 'Last Name',
-            },
-            address1: 'Address 1',
-            address2: 'Address 2 (optional)',
-            country: 'Country',
-            city: {
-                label: 'City',
-                placeholder: 'City',
-            },
-            state: 'State',
-            zipCode: {
-                label: 'Zip code',
-                placeholder: 'Postal Code/Zip',
-            },
-            phoneNumber: {
-                label: 'Phone number (optional)',
-                placeholder: '(555) 555 - 0123',
-            },
-            saveAsDefault: 'Save as default',
-            chooseAddress: 'Choose address',
-            streetAddress: 'Street Address',
-            aptSuite: 'Apt, Suite',
-            selectOne: 'Select One...',
-            setAsDefault: 'Set as default',
-            titleRequired: 'Title is required.',
-            userAddressAddSuccess: 'New address was added successfully!',
-            userAddressUpdateSuccess: 'Address updated successfully!',
-            userAddressDeleteSuccess: 'Address deleted successfully!',
-            invalidAddress: 'Invalid Address',
-        },
-        addressBook: {
-            addNewShippingAddress: 'Add a new shipping address',
-            editShippingAddress: 'Edit shipping address',
-            areYouSureToDeleteAddress: 'Are you sure you want to delete this address?',
-            addNewAddress: 'Add new address',
-            addAddress: 'Add address',
-            updateAddress: 'Update address',
-            backToAddressList: 'Back to address list',
-        },
-        addressCard: {
-            default: 'DEFAULT',
-            selected: 'Selected',
-            setAsDefault: 'Set as default',
-            shipTo: 'Ship To',
-            billTo: 'Bill To',
-        },
-    };
-
     var en = {
         address: address,
+        asm: asm,
         cart: cart,
         checkout: checkout,
         common: common,
@@ -638,15 +668,16 @@
     exports.translations = translations;
     exports.ɵa = en;
     exports.ɵb = address;
-    exports.ɵc = cart;
-    exports.ɵd = checkout;
-    exports.ɵe = common;
-    exports.ɵf = myAccount;
-    exports.ɵg = payment;
-    exports.ɵh = product;
-    exports.ɵi = pwa;
-    exports.ɵj = storeFinder;
-    exports.ɵk = user;
+    exports.ɵc = asm;
+    exports.ɵd = cart;
+    exports.ɵe = checkout;
+    exports.ɵf = common;
+    exports.ɵg = myAccount;
+    exports.ɵh = payment;
+    exports.ɵi = product;
+    exports.ɵj = pwa;
+    exports.ɵk = storeFinder;
+    exports.ɵl = user;
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
