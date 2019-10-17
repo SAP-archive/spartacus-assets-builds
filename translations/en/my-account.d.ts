@@ -100,6 +100,10 @@ export declare const myAccount: {
         profileUpdateSuccess: string;
     };
     consentManagementForm: {
+        rejectAll: string;
+        allowAll: string;
+        off: string;
+        on: string;
         message: {
             success: {
                 given: string;

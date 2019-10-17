@@ -1,4 +1,21 @@
 export declare const user: {
+    anonymousConsents: {
+        preferences: string;
+        dialog: {
+            title: string;
+            legalDescription: string;
+            allowAll: string;
+            rejectAll: string;
+            off: string;
+            on: string;
+        };
+        banner: {
+            title: string;
+            description: string;
+            allowAll: string;
+            viewDetails: string;
+        };
+    };
     forgottenPassword: {
         resetPassword: string;
         enterEmailAddressAssociatedWithYourAccount: string;

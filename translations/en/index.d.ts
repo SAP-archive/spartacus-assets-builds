@@ -355,6 +355,10 @@ export declare const en: {
             profileUpdateSuccess: string;
         };
         consentManagementForm: {
+            rejectAll: string;
+            allowAll: string;
+            off: string;
+            on: string;
             message: {
                 success: {
                     given: string;
@@ -503,6 +507,23 @@ export declare const en: {
         };
     };
     user: {
+        anonymousConsents: {
+            preferences: string;
+            dialog: {
+                title: string;
+                legalDescription: string;
+                allowAll: string;
+                rejectAll: string;
+                off: string;
+                on: string;
+            };
+            banner: {
+                title: string;
+                description: string;
+                allowAll: string;
+                viewDetails: string;
+            };
+        };
         forgottenPassword: {
             resetPassword: string;
             enterEmailAddressAssociatedWithYourAccount: string;
