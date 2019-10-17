@@ -447,6 +447,7 @@ export declare const en: {
             writeReview: string;
             more: string;
             less: string;
+            thankYouForReview: string;
         };
         addToCart: {
             itemsAddedToYourCart: string;

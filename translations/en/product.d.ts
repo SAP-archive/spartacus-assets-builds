@@ -45,6 +45,7 @@ export declare const product: {
         writeReview: string;
         more: string;
         less: string;
+        thankYouForReview: string;
     };
     addToCart: {
         itemsAddedToYourCart: string;
