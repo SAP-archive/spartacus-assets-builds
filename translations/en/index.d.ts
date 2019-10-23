@@ -355,10 +355,8 @@ export declare const en: {
             profileUpdateSuccess: string;
         };
         consentManagementForm: {
-            rejectAll: string;
-            allowAll: string;
-            off: string;
-            on: string;
+            clearAll: string;
+            selectAll: string;
             message: {
                 success: {
                     given: string;
@@ -512,10 +510,8 @@ export declare const en: {
             dialog: {
                 title: string;
                 legalDescription: string;
-                allowAll: string;
-                rejectAll: string;
-                off: string;
-                on: string;
+                selectAll: string;
+                clearAll: string;
             };
             banner: {
                 title: string;

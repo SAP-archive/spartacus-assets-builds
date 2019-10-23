@@ -412,10 +412,8 @@ var myAccount = {
         profileUpdateSuccess: 'Personal details successfully updated',
     },
     consentManagementForm: {
-        rejectAll: 'Reject all',
-        allowAll: 'Allow all',
-        off: 'OFF',
-        on: 'ON',
+        clearAll: 'Clear all',
+        selectAll: 'Select all',
         message: {
             success: {
                 given: 'Consent successfully given.',
@@ -574,10 +572,8 @@ var user = {
         dialog: {
             title: 'Consent Management',
             legalDescription: "We use cookies/browser's storage to personalize the content and improve user experience. We also might share the data about your site usage with our social media. For more, please review our privacy policy.",
-            allowAll: 'Allow All',
-            rejectAll: 'Reject All',
-            off: 'OFF',
-            on: 'ON',
+            selectAll: 'Select all',
+            clearAll: 'Clear all',
         },
         banner: {
             title: 'This website uses cookies',

@@ -4,10 +4,8 @@ export declare const user: {
         dialog: {
             title: string;
             legalDescription: string;
-            allowAll: string;
-            rejectAll: string;
-            off: string;
-            on: string;
+            selectAll: string;
+            clearAll: string;
         };
         banner: {
             title: string;
