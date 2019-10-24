@@ -10,7 +10,7 @@ var translationChunksConfig = {
         'miniCart',
         'miniLogin',
     ],
-    cart: ['cartDetails', 'cartItems', 'orderCost'],
+    cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher'],
     address: ['addressForm', 'addressBook', 'addressCard'],
     payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
     myAccount: [
@@ -161,6 +161,15 @@ var cart = {
         salesTax: 'Sales Tax:',
         grossTax: 'The order total does not include tax of',
         total: 'Total:',
+    },
+    voucher: {
+        coupon: 'Have a coupon?',
+        coupon_plural: 'Coupon codes',
+        apply: 'Apply',
+        placeholder: 'Promo code',
+        applyVoucherSuccess: '{{voucherCode}} has been applied.',
+        removeVoucherSuccess: '{{voucherCode}} has been removed.',
+        anchorLabel: 'Enter or remove your coupon code',
     },
 };
 

@@ -24,4 +24,13 @@ export declare const cart: {
         grossTax: string;
         total: string;
     };
+    voucher: {
+        coupon: string;
+        coupon_plural: string;
+        apply: string;
+        placeholder: string;
+        applyVoucherSuccess: string;
+        removeVoucherSuccess: string;
+        anchorLabel: string;
+    };
 };
