@@ -24,5 +24,6 @@ export declare const asm: {
             noMatch: string;
         };
         csagentTokenExpired: string;
+        endSession: string;
     };
 };

@@ -133,6 +133,7 @@ var asm = {
             noMatch: 'No customer found for "{{uid}}"',
         },
         csagentTokenExpired: 'Your customer support agent session is expired.',
+        endSession: 'End Session',
     },
 };
 

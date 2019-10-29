@@ -81,6 +81,7 @@ export declare const en: {
                 noMatch: string;
             };
             csagentTokenExpired: string;
+            endSession: string;
         };
     };
     cart: {
