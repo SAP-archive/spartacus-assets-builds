@@ -171,6 +171,7 @@ var cart = {
         applyVoucherSuccess: '{{voucherCode}} has been applied.',
         removeVoucherSuccess: '{{voucherCode}} has been removed.',
         anchorLabel: 'Enter or remove your coupon code',
+        vouchersApplied: 'Applied coupons',
     },
 };
 

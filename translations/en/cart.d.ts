@@ -32,5 +32,6 @@ export declare const cart: {
         applyVoucherSuccess: string;
         removeVoucherSuccess: string;
         anchorLabel: string;
+        vouchersApplied: string;
     };
 };

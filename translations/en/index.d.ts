@@ -118,6 +118,7 @@ export declare const en: {
             applyVoucherSuccess: string;
             removeVoucherSuccess: string;
             anchorLabel: string;
+            vouchersApplied: string;
         };
     };
     checkout: {
