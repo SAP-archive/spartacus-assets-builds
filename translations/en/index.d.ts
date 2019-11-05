@@ -75,7 +75,6 @@ export declare const en: {
             customerSearch: {
                 searchTerm: {
                     label: string;
-                    required: string;
                 };
                 submit: string;
                 noMatch: string;

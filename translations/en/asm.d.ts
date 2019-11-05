@@ -18,7 +18,6 @@ export declare const asm: {
         customerSearch: {
             searchTerm: {
                 label: string;
-                required: string;
             };
             submit: string;
             noMatch: string;
