@@ -81,6 +81,11 @@ export declare const en: {
             };
             csagentTokenExpired: string;
             endSession: string;
+            agentSessionTimer: {
+                label: string;
+                minutes: string;
+                reset: string;
+            };
         };
     };
     cart: {

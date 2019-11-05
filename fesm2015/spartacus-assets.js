@@ -133,6 +133,11 @@ const asm = {
         },
         csagentTokenExpired: 'Your customer support agent session is expired.',
         endSession: 'End Session',
+        agentSessionTimer: {
+            label: 'Session Timeout',
+            minutes: 'min',
+            reset: 'Reset',
+        },
     },
 };
 
