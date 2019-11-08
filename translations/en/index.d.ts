@@ -86,6 +86,7 @@ export declare const en: {
                 minutes: string;
                 reset: string;
             };
+            standardSessionInProgress: string;
         };
     };
     cart: {

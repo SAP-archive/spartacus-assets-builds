@@ -138,6 +138,7 @@ const asm = {
             minutes: 'min',
             reset: 'Reset',
         },
+        standardSessionInProgress: 'Standard customer session in progress.',
     },
 };
 

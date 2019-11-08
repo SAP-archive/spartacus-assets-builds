@@ -29,5 +29,6 @@ export declare const asm: {
             minutes: string;
             reset: string;
         };
+        standardSessionInProgress: string;
     };
 };
