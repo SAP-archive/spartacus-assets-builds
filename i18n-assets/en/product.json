@@ -59,6 +59,11 @@
     "outOfStock": "Out of stock",
     "inStock": "In stock"
   },
+  "addToWishList": {
+    "add": "Add to Wish List",
+    "inWishList": "In Wish List",
+    "remove": "Remove"
+  },
   "CMSTabParagraphContainer": {
     "tabs": {
       "ProductDetailsTabComponent": "Product Details",

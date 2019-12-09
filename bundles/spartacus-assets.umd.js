@@ -16,7 +16,7 @@
             'miniCart',
             'miniLogin',
         ],
-        cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher'],
+        cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
         address: ['addressForm', 'addressBook', 'addressCard'],
         payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
         myAccount: [
@@ -45,6 +45,7 @@
             'productSummary',
             'productReview',
             'addToCart',
+            'addToWishList',
             'CMSTabParagraphContainer',
         ],
         user: [
@@ -139,12 +140,6 @@
             },
             csagentTokenExpired: 'Your customer support agent session is expired.',
             endSession: 'End Session',
-            agentSessionTimer: {
-                label: 'Session Timeout',
-                minutes: 'min',
-                reset: 'Reset',
-            },
-            standardSessionInProgress: 'Standard customer session in progress.',
         },
     };
 
@@ -183,6 +178,9 @@
             removeVoucherSuccess: '{{voucherCode}} has been removed.',
             anchorLabel: 'Enter or remove your coupon code',
             vouchersApplied: 'Applied coupons',
+        },
+        wishList: {
+            remove: 'Remove',
         },
     };
 
@@ -543,6 +541,11 @@
             quantity: 'Qty',
             outOfStock: 'Out of stock',
             inStock: 'In stock',
+        },
+        addToWishList: {
+            add: 'Add to Wish List',
+            inWishList: 'In Wish List',
+            remove: 'Remove',
         },
         CMSTabParagraphContainer: {
             tabs: {

@@ -81,12 +81,6 @@ export declare const en: {
             };
             csagentTokenExpired: string;
             endSession: string;
-            agentSessionTimer: {
-                label: string;
-                minutes: string;
-                reset: string;
-            };
-            standardSessionInProgress: string;
         };
     };
     cart: {
@@ -124,6 +118,9 @@ export declare const en: {
             removeVoucherSuccess: string;
             anchorLabel: string;
             vouchersApplied: string;
+        };
+        wishList: {
+            remove: string;
         };
     };
     checkout: {
@@ -478,6 +475,11 @@ export declare const en: {
             quantity: string;
             outOfStock: string;
             inStock: string;
+        };
+        addToWishList: {
+            add: string;
+            inWishList: string;
+            remove: string;
         };
         CMSTabParagraphContainer: {
             tabs: {

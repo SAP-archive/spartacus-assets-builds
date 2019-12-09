@@ -24,11 +24,5 @@ export declare const asm: {
         };
         csagentTokenExpired: string;
         endSession: string;
-        agentSessionTimer: {
-            label: string;
-            minutes: string;
-            reset: string;
-        };
-        standardSessionInProgress: string;
     };
 };

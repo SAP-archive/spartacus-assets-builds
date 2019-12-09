@@ -10,7 +10,7 @@ var translationChunksConfig = {
         'miniCart',
         'miniLogin',
     ],
-    cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher'],
+    cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
     address: ['addressForm', 'addressBook', 'addressCard'],
     payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
     myAccount: [
@@ -39,6 +39,7 @@ var translationChunksConfig = {
         'productSummary',
         'productReview',
         'addToCart',
+        'addToWishList',
         'CMSTabParagraphContainer',
     ],
     user: [
@@ -133,12 +134,6 @@ var asm = {
         },
         csagentTokenExpired: 'Your customer support agent session is expired.',
         endSession: 'End Session',
-        agentSessionTimer: {
-            label: 'Session Timeout',
-            minutes: 'min',
-            reset: 'Reset',
-        },
-        standardSessionInProgress: 'Standard customer session in progress.',
     },
 };
 
@@ -177,6 +172,9 @@ var cart = {
         removeVoucherSuccess: '{{voucherCode}} has been removed.',
         anchorLabel: 'Enter or remove your coupon code',
         vouchersApplied: 'Applied coupons',
+    },
+    wishList: {
+        remove: 'Remove',
     },
 };
 
@@ -537,6 +535,11 @@ var product = {
         quantity: 'Qty',
         outOfStock: 'Out of stock',
         inStock: 'In stock',
+    },
+    addToWishList: {
+        add: 'Add to Wish List',
+        inWishList: 'In Wish List',
+        remove: 'Remove',
     },
     CMSTabParagraphContainer: {
         tabs: {
