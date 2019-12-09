@@ -8,6 +8,7 @@ export declare const product: {
         shipping: string;
         share: string;
         showReviews: string;
+        noReviews: string;
     };
     productList: {
         filterBy: {
@@ -59,17 +60,37 @@ export declare const product: {
         outOfStock: string;
         inStock: string;
     };
-    addToWishList: {
-        add: string;
-        inWishList: string;
-        remove: string;
-    };
     CMSTabParagraphContainer: {
         tabs: {
             ProductDetailsTabComponent: string;
             ProductSpecsTabComponent: string;
             ProductReviewsTabComponent: string;
             deliveryTab: string;
+        };
+    };
+    stockNotification: {
+        notifyMe: string;
+        stopNotify: string;
+        getNotify: string;
+        getNotifySuffix: string;
+        activateChannelsPrefix: string;
+        channelsLink: string;
+        activateChannelsSuffix: string;
+        notified: string;
+        getNotified: string;
+        unsubscribeSuccess: string;
+        subscriptionDialog: {
+            header: string;
+            notifiedPrefix: string;
+            notifiedSuffix: string;
+            manageChannelsPrefix: string;
+            manageChannelsLink: string;
+            manageChannelsSuffix: string;
+            manageSubscriptionsPrefix: string;
+            manageSubscriptionsLink: string;
+            manageSubscriptionsSuffix: string;
+            okBtn: string;
+            subscribing: string;
         };
     };
 };

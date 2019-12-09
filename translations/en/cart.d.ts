@@ -34,7 +34,4 @@ export declare const cart: {
         anchorLabel: string;
         vouchersApplied: string;
     };
-    wishList: {
-        remove: string;
-    };
 };

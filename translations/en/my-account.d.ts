@@ -109,4 +109,31 @@ export declare const myAccount: {
             };
         };
     };
+    notificationPreference: {
+        message: string;
+        note: string;
+        noteMessage: string;
+        EMAIL: string;
+        SMS: string;
+        SITE_MESSAGE: string;
+    };
+    myInterests: {
+        header: string;
+        item: string;
+        price: string;
+        notifications: string;
+        noInterests: string;
+        inStock: string;
+        lowStock: string;
+        outOfStock: string;
+        BACK_IN_STOCK: string;
+        sortByMostRecent: string;
+        expirationDate: string;
+        productId: string;
+        remove: string;
+        sorting: {
+            byNameAsc: string;
+            byNameDesc: string;
+        };
+    };
 };

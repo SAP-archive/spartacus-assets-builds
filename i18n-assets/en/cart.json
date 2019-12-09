@@ -33,8 +33,5 @@
     "removeVoucherSuccess": "{{voucherCode}} has been removed.",
     "anchorLabel": "Enter or remove your coupon code",
     "vouchersApplied": "Applied coupons"
-  },
-  "wishList": {
-    "remove": "Remove"
   }
 }

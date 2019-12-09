@@ -81,6 +81,12 @@ export declare const en: {
             };
             csagentTokenExpired: string;
             endSession: string;
+            agentSessionTimer: {
+                label: string;
+                minutes: string;
+                reset: string;
+            };
+            standardSessionInProgress: string;
         };
     };
     cart: {
@@ -118,9 +124,6 @@ export declare const en: {
             removeVoucherSuccess: string;
             anchorLabel: string;
             vouchersApplied: string;
-        };
-        wishList: {
-            remove: string;
         };
     };
     checkout: {
@@ -377,6 +380,33 @@ export declare const en: {
                 };
             };
         };
+        notificationPreference: {
+            message: string;
+            note: string;
+            noteMessage: string;
+            EMAIL: string;
+            SMS: string;
+            SITE_MESSAGE: string;
+        };
+        myInterests: {
+            header: string;
+            item: string;
+            price: string;
+            notifications: string;
+            noInterests: string;
+            inStock: string;
+            lowStock: string;
+            outOfStock: string;
+            BACK_IN_STOCK: string;
+            sortByMostRecent: string;
+            expirationDate: string;
+            productId: string;
+            remove: string;
+            sorting: {
+                byNameAsc: string;
+                byNameDesc: string;
+            };
+        };
     };
     payment: {
         paymentForm: {
@@ -425,6 +455,7 @@ export declare const en: {
             shipping: string;
             share: string;
             showReviews: string;
+            noReviews: string;
         };
         productList: {
             filterBy: {
@@ -476,17 +507,37 @@ export declare const en: {
             outOfStock: string;
             inStock: string;
         };
-        addToWishList: {
-            add: string;
-            inWishList: string;
-            remove: string;
-        };
         CMSTabParagraphContainer: {
             tabs: {
                 ProductDetailsTabComponent: string;
                 ProductSpecsTabComponent: string;
                 ProductReviewsTabComponent: string;
                 deliveryTab: string;
+            };
+        };
+        stockNotification: {
+            notifyMe: string;
+            stopNotify: string;
+            getNotify: string;
+            getNotifySuffix: string;
+            activateChannelsPrefix: string;
+            channelsLink: string;
+            activateChannelsSuffix: string;
+            notified: string;
+            getNotified: string;
+            unsubscribeSuccess: string;
+            subscriptionDialog: {
+                header: string;
+                notifiedPrefix: string;
+                notifiedSuffix: string;
+                manageChannelsPrefix: string;
+                manageChannelsLink: string;
+                manageChannelsSuffix: string;
+                manageSubscriptionsPrefix: string;
+                manageSubscriptionsLink: string;
+                manageSubscriptionsSuffix: string;
+                okBtn: string;
+                subscribing: string;
             };
         };
     };

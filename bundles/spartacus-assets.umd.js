@@ -16,7 +16,7 @@
             'miniCart',
             'miniLogin',
         ],
-        cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
+        cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher'],
         address: ['addressForm', 'addressBook', 'addressCard'],
         payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
         myAccount: [
@@ -27,6 +27,8 @@
             'updatePasswordForm',
             'updateProfileForm',
             'consentManagementForm',
+            'notificationPreference',
+            'myInterests',
         ],
         storeFinder: ['storeFinder'],
         pwa: ['pwa'],
@@ -45,8 +47,8 @@
             'productSummary',
             'productReview',
             'addToCart',
-            'addToWishList',
             'CMSTabParagraphContainer',
+            'stockNotification',
         ],
         user: [
             'anonymousConsents',
@@ -140,6 +142,12 @@
             },
             csagentTokenExpired: 'Your customer support agent session is expired.',
             endSession: 'End Session',
+            agentSessionTimer: {
+                label: 'Session Timeout',
+                minutes: 'min',
+                reset: 'Reset',
+            },
+            standardSessionInProgress: 'Standard customer session in progress.',
         },
     };
 
@@ -178,9 +186,6 @@
             removeVoucherSuccess: '{{voucherCode}} has been removed.',
             anchorLabel: 'Enter or remove your coupon code',
             vouchersApplied: 'Applied coupons',
-        },
-        wishList: {
-            remove: 'Remove',
         },
     };
 
@@ -441,6 +446,33 @@
                 },
             },
         },
+        notificationPreference: {
+            message: 'Select your preferred notification channels',
+            note: 'Note: ',
+            noteMessage: 'If you deactivate all channels you will not be able to receive any further notifications.',
+            EMAIL: 'Email:',
+            SMS: 'SMS:',
+            SITE_MESSAGE: 'SiteMessage',
+        },
+        myInterests: {
+            header: 'My Interests',
+            item: 'ITEM',
+            price: 'PRICE',
+            notifications: 'NOTIFICATIONS',
+            noInterests: 'You have no registered interests yet.',
+            inStock: 'In Stock',
+            lowStock: 'Low Stock',
+            outOfStock: 'Out of Stock',
+            BACK_IN_STOCK: 'Back In Stock',
+            sortByMostRecent: 'Sort by Most recent',
+            expirationDate: ' - Till {{ expirationDate }}',
+            productId: 'ID {{ code }}',
+            remove: 'REMOVE',
+            sorting: {
+                byNameAsc: 'Name (ascending)',
+                byNameDesc: 'Name (descending)',
+            },
+        },
     };
 
     var payment = {
@@ -491,6 +523,7 @@
             shipping: 'Shipping',
             share: 'Share',
             showReviews: 'Show reviews',
+            noReviews: 'No reviews yet',
         },
         productList: {
             filterBy: {
@@ -542,17 +575,37 @@
             outOfStock: 'Out of stock',
             inStock: 'In stock',
         },
-        addToWishList: {
-            add: 'Add to Wish List',
-            inWishList: 'In Wish List',
-            remove: 'Remove',
-        },
         CMSTabParagraphContainer: {
             tabs: {
                 ProductDetailsTabComponent: 'Product Details',
                 ProductSpecsTabComponent: 'Specs',
                 ProductReviewsTabComponent: 'Reviews',
                 deliveryTab: 'Shipping',
+            },
+        },
+        stockNotification: {
+            notifyMe: 'NOTIFY ME',
+            stopNotify: 'STOP NOTIFICATION',
+            getNotify: 'Get notified when this product is available.',
+            getNotifySuffix: 'to get notified when this product is available.',
+            activateChannelsPrefix: 'To be notified you need to activate the ',
+            channelsLink: 'Notification Channels',
+            activateChannelsSuffix: '.',
+            notified: 'You will be notified when this product is back in stock.',
+            getNotified: 'Get notified when this product is back in stock.',
+            unsubscribeSuccess: 'You will not receive back-in-stock notification for this product.',
+            subscriptionDialog: {
+                header: 'Out of stock subscription',
+                notifiedPrefix: 'You will be notified on:',
+                notifiedSuffix: 'as soons as this product is back in stock.',
+                manageChannelsPrefix: 'Manage your prefered notification channels at the ',
+                manageChannelsLink: 'Notification Preference',
+                manageChannelsSuffix: ' page.',
+                manageSubscriptionsPrefix: 'You can manage your subscriptions at ',
+                manageSubscriptionsLink: 'My Interests',
+                manageSubscriptionsSuffix: ' page.',
+                okBtn: 'OK',
+                subscribing: 'Subscribing you to Out of Stock notifications for this product',
             },
         },
     };
