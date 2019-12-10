@@ -1,6 +1,6 @@
 {
   "name": "@spartacus/assets",
-  "version": "1.3.0",
+  "version": "1.4.0-next.0",
   "main": "bundles/spartacus-assets.umd.js",
   "module": "fesm5/spartacus-assets.js",
   "es2015": "fesm2015/spartacus-assets.js",
