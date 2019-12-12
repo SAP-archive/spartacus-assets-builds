@@ -60,6 +60,11 @@ export declare const product: {
         outOfStock: string;
         inStock: string;
     };
+    addToWishList: {
+        add: string;
+        remove: string;
+        anonymous: string;
+    };
     CMSTabParagraphContainer: {
         tabs: {
             ProductDetailsTabComponent: string;

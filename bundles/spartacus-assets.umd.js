@@ -16,7 +16,7 @@
             'miniCart',
             'miniLogin',
         ],
-        cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher'],
+        cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
         address: ['addressForm', 'addressBook', 'addressCard'],
         payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
         myAccount: [
@@ -27,6 +27,7 @@
             'updatePasswordForm',
             'updateProfileForm',
             'consentManagementForm',
+            'wishlist',
             'notificationPreference',
             'myInterests',
         ],
@@ -47,6 +48,7 @@
             'productSummary',
             'productReview',
             'addToCart',
+            'addToWishList',
             'CMSTabParagraphContainer',
             'stockNotification',
         ],
@@ -473,6 +475,9 @@
                 byNameDesc: 'Name (descending)',
             },
         },
+        wishlist: {
+            empty: 'No products in your wish list yet',
+        },
     };
 
     var payment = {
@@ -574,6 +579,11 @@
             quantity: 'Qty',
             outOfStock: 'Out of stock',
             inStock: 'In stock',
+        },
+        addToWishList: {
+            add: 'Add to Wish List',
+            remove: 'Remove from Wish List',
+            anonymous: 'Sign in to add to wish list',
         },
         CMSTabParagraphContainer: {
             tabs: {

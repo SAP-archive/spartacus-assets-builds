@@ -407,6 +407,9 @@ export declare const en: {
                 byNameDesc: string;
             };
         };
+        wishlist: {
+            empty: string;
+        };
     };
     payment: {
         paymentForm: {
@@ -506,6 +509,11 @@ export declare const en: {
             quantity: string;
             outOfStock: string;
             inStock: string;
+        };
+        addToWishList: {
+            add: string;
+            remove: string;
+            anonymous: string;
         };
         CMSTabParagraphContainer: {
             tabs: {

@@ -10,7 +10,7 @@ const translationChunksConfig = {
         'miniCart',
         'miniLogin',
     ],
-    cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher'],
+    cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
     address: ['addressForm', 'addressBook', 'addressCard'],
     payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
     myAccount: [
@@ -21,6 +21,7 @@ const translationChunksConfig = {
         'updatePasswordForm',
         'updateProfileForm',
         'consentManagementForm',
+        'wishlist',
         'notificationPreference',
         'myInterests',
     ],
@@ -41,6 +42,7 @@ const translationChunksConfig = {
         'productSummary',
         'productReview',
         'addToCart',
+        'addToWishList',
         'CMSTabParagraphContainer',
         'stockNotification',
     ],
@@ -467,6 +469,9 @@ const myAccount = {
             byNameDesc: 'Name (descending)',
         },
     },
+    wishlist: {
+        empty: 'No products in your wish list yet',
+    },
 };
 
 const payment = {
@@ -568,6 +573,11 @@ const product = {
         quantity: 'Qty',
         outOfStock: 'Out of stock',
         inStock: 'In stock',
+    },
+    addToWishList: {
+        add: 'Add to Wish List',
+        remove: 'Remove from Wish List',
+        anonymous: 'Sign in to add to wish list',
     },
     CMSTabParagraphContainer: {
         tabs: {

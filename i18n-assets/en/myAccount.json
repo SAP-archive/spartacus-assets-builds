@@ -135,5 +135,8 @@
       "byNameAsc": "Name (ascending)",
       "byNameDesc": "Name (descending)"
     }
+  },
+  "wishlist": {
+    "empty": "No products in your wish list yet"
   }
 }

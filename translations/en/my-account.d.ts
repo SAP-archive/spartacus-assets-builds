@@ -136,4 +136,7 @@ export declare const myAccount: {
             byNameDesc: string;
         };
     };
+    wishlist: {
+        empty: string;
+    };
 };
