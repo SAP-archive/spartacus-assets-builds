@@ -30,6 +30,23 @@ export declare const myAccount: {
                 loadingHeader: string;
             };
         };
+        cancellationAndReturn: {
+            returnAction: string;
+            cancelAction: string;
+            item: string;
+            itemPrice: string;
+            quantity: string;
+            returnQty: string;
+            cancelQty: string;
+            setAll: string;
+            totalPrice: string;
+            submit: string;
+            returnNote: string;
+            cancelNote: string;
+            returnSuccess: string;
+            cancelSuccess: string;
+            note: string;
+        };
     };
     orderHistory: {
         orderHistory: string;
@@ -135,6 +152,49 @@ export declare const myAccount: {
             byNameAsc: string;
             byNameDesc: string;
         };
+    };
+    AccountOrderHistoryTabContainer: {
+        tabs: {
+            AccountOrderHistoryComponent: string;
+            OrderReturnRequestListComponent: string;
+        };
+    };
+    returnRequestList: {
+        returnRequestId: string;
+        orderId: string;
+        date: string;
+        status: string;
+        sortByMostRecent: string;
+        statusDisplay_APPROVAL_PENDING: string;
+        statusDisplay_CANCELED: string;
+        statusDisplay_CANCELLING: string;
+        statusDisplay_WAIT: string;
+        statusDisplay_RECEIVED: string;
+        statusDisplay_RECEIVING: string;
+        statusDisplay_APPROVING: string;
+        statusDisplay_REVERSING_PAYMENT: string;
+        statusDisplay_PAYMENT_REVERSED: string;
+        statusDisplay_PAYMENT_REVERSAL_FAILED: string;
+        statusDisplay_REVERSING_TAX: string;
+        statusDisplay_TAX_REVERSED: string;
+        statusDisplay_TAX_REVERSAL_FAILED: string;
+        statusDisplay_COMPLETED: string;
+    };
+    returnRequest: {
+        returnRequestId: string;
+        orderCode: string;
+        status: string;
+        cancel: string;
+        item: string;
+        itemPrice: string;
+        returnQty: string;
+        total: string;
+        summary: string;
+        subtotal: string;
+        deliveryCode: string;
+        estimatedRefund: string;
+        note: string;
+        cancelSuccess: string;
     };
     wishlist: {
         empty: string;

@@ -48,6 +48,7 @@ export declare const common: {
     sorting: {
         date: string;
         orderNumber: string;
+        rma: string;
     };
     httpHandlers: {
         badGateway: string;

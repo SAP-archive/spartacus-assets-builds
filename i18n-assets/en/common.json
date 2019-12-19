@@ -47,7 +47,8 @@
   },
   "sorting": {
     "date": "Date",
-    "orderNumber": "Order Number"
+    "orderNumber": "Order Number",
+    "rma": "Return Number"
   },
   "httpHandlers": {
     "badGateway": "A server error occurred. Please try again later.",
