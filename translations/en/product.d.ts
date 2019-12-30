@@ -59,6 +59,7 @@ export declare const product: {
         quantity: string;
         outOfStock: string;
         inStock: string;
+        selectStyleAndSize: string;
     };
     TabPanelContainer: {
         tabs: {
@@ -67,6 +68,13 @@ export declare const product: {
             ProductReviewsTabComponent: string;
             deliveryTab: string;
         };
+    };
+    variant: {
+        style: string;
+        selectedStyle: string;
+        size: string;
+        color: string;
+        sizeGuideLabel: string;
     };
     addToWishList: {
         add: string;

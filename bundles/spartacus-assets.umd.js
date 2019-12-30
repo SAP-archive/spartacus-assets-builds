@@ -53,6 +53,7 @@
             'addToCart',
             'addToWishList',
             'CMSTabParagraphContainer',
+            'variant',
             'stockNotification',
             'TabPanelContainer',
         ],
@@ -644,6 +645,7 @@
             quantity: 'Qty',
             outOfStock: 'Out of stock',
             inStock: 'In stock',
+            selectStyleAndSize: 'Select style and size to check stock',
         },
         TabPanelContainer: {
             tabs: {
@@ -652,6 +654,13 @@
                 ProductReviewsTabComponent: 'Reviews',
                 deliveryTab: 'Shipping',
             },
+        },
+        variant: {
+            style: 'Style',
+            selectedStyle: 'Selected style',
+            size: 'Size',
+            color: 'Color',
+            sizeGuideLabel: 'Style guide',
         },
         addToWishList: {
             add: 'Add to Wish List',

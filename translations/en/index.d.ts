@@ -570,6 +570,7 @@ export declare const en: {
             quantity: string;
             outOfStock: string;
             inStock: string;
+            selectStyleAndSize: string;
         };
         TabPanelContainer: {
             tabs: {
@@ -578,6 +579,13 @@ export declare const en: {
                 ProductReviewsTabComponent: string;
                 deliveryTab: string;
             };
+        };
+        variant: {
+            style: string;
+            selectedStyle: string;
+            size: string;
+            color: string;
+            sizeGuideLabel: string;
         };
         addToWishList: {
             add: string;

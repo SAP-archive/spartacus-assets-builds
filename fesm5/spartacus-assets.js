@@ -47,6 +47,7 @@ var translationChunksConfig = {
         'addToCart',
         'addToWishList',
         'CMSTabParagraphContainer',
+        'variant',
         'stockNotification',
         'TabPanelContainer',
     ],
@@ -638,6 +639,7 @@ var product = {
         quantity: 'Qty',
         outOfStock: 'Out of stock',
         inStock: 'In stock',
+        selectStyleAndSize: 'Select style and size to check stock',
     },
     TabPanelContainer: {
         tabs: {
@@ -646,6 +648,13 @@ var product = {
             ProductReviewsTabComponent: 'Reviews',
             deliveryTab: 'Shipping',
         },
+    },
+    variant: {
+        style: 'Style',
+        selectedStyle: 'Selected style',
+        size: 'Size',
+        color: 'Color',
+        sizeGuideLabel: 'Style guide',
     },
     addToWishList: {
         add: 'Add to Wish List',
