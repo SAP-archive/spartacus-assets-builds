@@ -269,6 +269,16 @@ export declare const en: {
             userGreeting: string;
             signInRegister: string;
         };
+        skipLink: {
+            skipTo: string;
+            labels: {
+                header: string;
+                main: string;
+                footer: string;
+                productFacets: string;
+                productList: string;
+            };
+        };
     };
     myAccount: {
         orderDetails: {

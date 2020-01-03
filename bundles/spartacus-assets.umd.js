@@ -15,6 +15,7 @@
             'pageMetaResolver',
             'miniCart',
             'miniLogin',
+            'skipLink',
         ],
         cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
         address: ['addressForm', 'addressBook', 'addressCard'],
@@ -339,6 +340,16 @@
         miniLogin: {
             userGreeting: 'Hi, {{name}}',
             signInRegister: 'Sign In / Register',
+        },
+        skipLink: {
+            skipTo: 'Skip to',
+            labels: {
+                header: 'Header',
+                main: 'Main Content',
+                footer: 'Footer',
+                productFacets: 'Product Facets',
+                productList: 'Product List',
+            },
         },
     };
 
