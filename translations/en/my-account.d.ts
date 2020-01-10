@@ -41,11 +41,8 @@ export declare const myAccount: {
             setAll: string;
             totalPrice: string;
             submit: string;
-            returnNote: string;
-            cancelNote: string;
             returnSuccess: string;
             cancelSuccess: string;
-            note: string;
         };
     };
     orderHistory: {
