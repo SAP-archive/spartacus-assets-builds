@@ -23,6 +23,8 @@ export declare const common: {
         search: {
             title: string;
             title_plural: string;
+            findProductTitle: string;
+            findProductTitle_plural: string;
         };
         product: {
             description: string;

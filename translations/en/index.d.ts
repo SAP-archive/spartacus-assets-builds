@@ -200,6 +200,8 @@ export declare const en: {
             search: {
                 title: string;
                 title_plural: string;
+                findProductTitle: string;
+                findProductTitle_plural: string;
             };
             product: {
                 description: string;
@@ -404,6 +406,28 @@ export declare const en: {
                     withdrawn: string;
                 };
             };
+        };
+        myCoupons: {
+            noCouponsMessage: string;
+            effectiveTitle: string;
+            Effective: string;
+            PreSession: string;
+            ExpireSoon: string;
+            readMore: string;
+            notification: string;
+            findProducts: string;
+            status: string;
+            dialogTitle: string;
+            claimCustomerCoupon: string;
+            myCoupons: string;
+            startDateAsc: string;
+            startDateDesc: string;
+            endDateAsc: string;
+            endDateDesc: string;
+            sortByMostRecent: string;
+            notesPreffix: string;
+            notesLink: string;
+            notesSuffix: string;
         };
         notificationPreference: {
             message: string;
