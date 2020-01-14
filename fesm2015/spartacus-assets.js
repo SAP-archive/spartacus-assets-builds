@@ -11,7 +11,14 @@ const translationChunksConfig = {
         'miniLogin',
         'skipLink',
     ],
-    cart: ['cartDetails', 'cartItems', 'orderCost', 'voucher', 'wishList'],
+    cart: [
+        'cartDetails',
+        'cartItems',
+        'orderCost',
+        'voucher',
+        'wishList',
+        'saveForLaterItems',
+    ],
     address: ['addressForm', 'addressBook', 'addressCard'],
     payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
     myAccount: [
@@ -189,6 +196,15 @@ const cart = {
         removeVoucherSuccess: '{{voucherCode}} has been removed.',
         anchorLabel: 'Enter or remove your coupon code',
         vouchersApplied: 'Applied coupons',
+    },
+    saveForLaterItems: {
+        itemTotal: 'Saved for later ({{count}} item)',
+        itemTotal_plural: 'Saved for later ({{count}} items)',
+        cartTitle: 'Cart',
+        saveForLater: 'Save For Later',
+        moveToCart: 'Move To Cart',
+        stock: 'Stock',
+        forceInStock: 'In Stock',
     },
 };
 

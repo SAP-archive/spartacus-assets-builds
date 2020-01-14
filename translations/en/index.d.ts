@@ -125,6 +125,15 @@ export declare const en: {
             anchorLabel: string;
             vouchersApplied: string;
         };
+        saveForLaterItems: {
+            itemTotal: string;
+            itemTotal_plural: string;
+            cartTitle: string;
+            saveForLater: string;
+            moveToCart: string;
+            stock: string;
+            forceInStock: string;
+        };
     };
     checkout: {
         checkoutAddress: {
