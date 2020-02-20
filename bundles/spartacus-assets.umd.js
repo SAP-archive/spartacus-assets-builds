@@ -2,7 +2,7 @@
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
     typeof define === 'function' && define.amd ? define('@spartacus/assets', ['exports'], factory) :
     (global = global || self, factory((global.spartacus = global.spartacus || {}, global.spartacus.assets = {})));
-}(this, function (exports) { 'use strict';
+}(this, (function (exports) { 'use strict';
 
     var translationChunksConfig = {
         common: [
@@ -910,5 +910,5 @@
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));
 //# sourceMappingURL=spartacus-assets.umd.js.map
