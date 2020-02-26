@@ -82,6 +82,10 @@ export declare const common: {
             };
             invalid: {
                 card_expirationMonth: string;
+                firstName: string;
+                lastName: string;
+                password: string;
+                uid: string;
             };
         };
         cartNotFound: string;

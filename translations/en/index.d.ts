@@ -268,6 +268,10 @@ export declare const en: {
                 };
                 invalid: {
                     card_expirationMonth: string;
+                    firstName: string;
+                    lastName: string;
+                    password: string;
+                    uid: string;
                 };
             };
             cartNotFound: string;
