@@ -124,6 +124,8 @@ export declare const en: {
             removeVoucherSuccess: string;
             anchorLabel: string;
             vouchersApplied: string;
+            availableCoupons: string;
+            availableCouponsLabel: string;
         };
         saveForLaterItems: {
             itemTotal: string;

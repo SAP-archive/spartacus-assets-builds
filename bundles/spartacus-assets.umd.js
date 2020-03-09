@@ -202,6 +202,8 @@
             removeVoucherSuccess: '{{voucherCode}} has been removed.',
             anchorLabel: 'Enter or remove your coupon code',
             vouchersApplied: 'Applied coupons',
+            availableCoupons: 'Available coupons',
+            availableCouponsLabel: 'You can add these coupons to this order.',
         },
         saveForLaterItems: {
             itemTotal: 'Saved for later ({{count}} item)',
