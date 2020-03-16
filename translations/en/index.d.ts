@@ -281,6 +281,8 @@ export declare const en: {
         miniCart: {
             item: string;
             item_plural: string;
+            total: string;
+            count: string;
         };
         miniLogin: {
             userGreeting: string;

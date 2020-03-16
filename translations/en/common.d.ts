@@ -93,6 +93,8 @@ export declare const common: {
     miniCart: {
         item: string;
         item_plural: string;
+        total: string;
+        count: string;
     };
     miniLogin: {
         userGreeting: string;

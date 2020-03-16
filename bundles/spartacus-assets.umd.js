@@ -361,6 +361,8 @@
         miniCart: {
             item: '{{count}} item currently in your cart',
             item_plural: '{{count}} items currently in your cart',
+            total: '{{total}}',
+            count: '{{count}}',
         },
         miniLogin: {
             userGreeting: 'Hi, {{name}}',
