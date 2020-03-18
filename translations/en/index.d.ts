@@ -249,6 +249,10 @@ export declare const en: {
             gatewayTimeout: string;
             internalServerError: string;
             unknownError: string;
+            unauthorized: {
+                common: string;
+                invalid_client: string;
+            };
             validationErrors: {
                 missing: {
                     card_cardType: string;

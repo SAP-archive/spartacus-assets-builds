@@ -323,6 +323,10 @@ var common = {
         gatewayTimeout: 'The server did not respond, please try again later.',
         internalServerError: 'An Internal Server Error occurred. Please try again later.',
         unknownError: 'An unknown error occurred',
+        unauthorized: {
+            common: 'An unknown authorization error occured',
+            invalid_client: 'Bad client credentials',
+        },
         validationErrors: {
             missing: {
                 card_cardType: 'The selected credit card is not supported. Please select another.',
