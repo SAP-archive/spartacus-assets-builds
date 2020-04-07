@@ -114,4 +114,13 @@ export declare const common: {
             productList: string;
         };
     };
+    formErrors: {
+        globalMessage: string;
+        required: string;
+        cxInvalidEmail: string;
+        cxInvalidPassword: string;
+        cxPasswordsMustMatch: string;
+        cxEmailsMustMatch: string;
+        cxStarRatingEmpty: string;
+    };
 };

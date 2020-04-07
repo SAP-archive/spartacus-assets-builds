@@ -302,6 +302,15 @@ export declare const en: {
                 productList: string;
             };
         };
+        formErrors: {
+            globalMessage: string;
+            required: string;
+            cxInvalidEmail: string;
+            cxInvalidPassword: string;
+            cxPasswordsMustMatch: string;
+            cxEmailsMustMatch: string;
+            cxStarRatingEmpty: string;
+        };
     };
     myAccount: {
         orderDetails: {
