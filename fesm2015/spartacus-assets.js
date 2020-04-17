@@ -356,6 +356,7 @@ const common = {
             },
         },
         cartNotFound: 'Cart not found.',
+        invalidCodeProvided: 'Invalid code provided.',
     },
     miniCart: {
         item: '{{count}} item currently in your cart',

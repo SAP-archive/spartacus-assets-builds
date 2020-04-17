@@ -281,6 +281,7 @@ export declare const en: {
                 };
             };
             cartNotFound: string;
+            invalidCodeProvided: string;
         };
         miniCart: {
             item: string;

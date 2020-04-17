@@ -93,6 +93,7 @@ export declare const common: {
             };
         };
         cartNotFound: string;
+        invalidCodeProvided: string;
     };
     miniCart: {
         item: string;
