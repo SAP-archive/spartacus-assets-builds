@@ -311,6 +311,7 @@ export declare const en: {
             cxPasswordsMustMatch: string;
             cxEmailsMustMatch: string;
             cxStarRatingEmpty: string;
+            cxNoSelectedItemToCancel: string;
         };
     };
     myAccount: {

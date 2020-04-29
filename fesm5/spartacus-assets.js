@@ -386,6 +386,7 @@ var common = {
         cxPasswordsMustMatch: 'Password fields must match',
         cxEmailsMustMatch: 'Email fields must match',
         cxStarRatingEmpty: 'Rating field is required',
+        cxNoSelectedItemToCancel: 'Select at least one item to cancel',
     },
 };
 

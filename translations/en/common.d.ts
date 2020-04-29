@@ -123,5 +123,6 @@ export declare const common: {
         cxPasswordsMustMatch: string;
         cxEmailsMustMatch: string;
         cxStarRatingEmpty: string;
+        cxNoSelectedItemToCancel: string;
     };
 };
