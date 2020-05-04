@@ -4,8 +4,6 @@ export declare const myAccount: {
         placed: string;
         status: string;
         shippedOn: string;
-        inProcess: string;
-        pending: string;
         deliveryStatus_IN_TRANSIT: string;
         deliveryStatus_READY_FOR_PICKUP: string;
         deliveryStatus_READY_FOR_SHIPPING: string;
@@ -26,8 +24,8 @@ export declare const myAccount: {
         statusDisplay_created: string;
         statusDisplay_error: string;
         statusDisplay_Error: string;
-        statusDisplay_open: string;
         statusDisplay_processing: string;
+        statusDisplay_open: string;
         consignmentTracking: {
             action: string;
             dialog: {

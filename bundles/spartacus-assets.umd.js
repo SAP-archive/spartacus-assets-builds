@@ -402,8 +402,6 @@
             placed: 'Placed',
             status: 'Status',
             shippedOn: 'Shipped on',
-            inProcess: 'In process...',
-            pending: 'Pending',
             deliveryStatus_IN_TRANSIT: 'In Transit',
             deliveryStatus_READY_FOR_PICKUP: 'Ready for Pickup',
             deliveryStatus_READY_FOR_SHIPPING: 'Ready for Shipping',
@@ -424,8 +422,8 @@
             statusDisplay_created: 'Created',
             statusDisplay_error: 'Pending',
             statusDisplay_Error: 'Pending',
+            statusDisplay_processing: 'Pending',
             statusDisplay_open: 'Open',
-            statusDisplay_processing: 'In Process',
             consignmentTracking: {
                 action: 'Track package',
                 dialog: {
