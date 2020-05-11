@@ -61,6 +61,10 @@ export declare const en: {
             mainTitle: string;
             logout: string;
             hideUi: string;
+            toggleUi: {
+                collapse: string;
+                expand: string;
+            };
             loginForm: {
                 submit: string;
                 userId: {

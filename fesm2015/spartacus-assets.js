@@ -133,6 +133,7 @@ const asm = {
         mainTitle: 'Assisted Service Mode',
         logout: 'Sign Out',
         hideUi: 'Close ASM',
+        toggleUi: { collapse: 'Hide ASM', expand: 'Show ASM' },
         loginForm: {
             submit: 'Sign In',
             userId: {
