@@ -113,6 +113,7 @@ export declare const en: {
         orderCost: {
             orderSummary: string;
             subtotal: string;
+            shipping: string;
             estimatedShipping: string;
             discount: string;
             salesTax: string;
