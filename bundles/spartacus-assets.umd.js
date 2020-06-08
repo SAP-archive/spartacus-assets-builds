@@ -139,7 +139,10 @@
             mainTitle: 'Assisted Service Mode',
             logout: 'Sign Out',
             hideUi: 'Close ASM',
-            toggleUi: { collapse: 'Hide ASM', expand: 'Show ASM' },
+            toggleUi: {
+                collapse: 'Hide ASM',
+                expand: 'Show ASM',
+            },
             loginForm: {
                 submit: 'Sign In',
                 userId: {
@@ -434,8 +437,7 @@
                     estimate: 'Estimated Delivery',
                     carrier: 'Delivery Service',
                     trackingId: 'Tracking Number',
-                    noTracking: 'The package has not been dispatched from the warehouse. ' +
-                        'The tracking information will be available after the package is shipped.',
+                    noTracking: 'The package has not been dispatched from the warehouse. The tracking information will be available after the package is shipped.',
                     loadingHeader: 'Consignment Tracking',
                 },
             },
@@ -885,7 +887,6 @@
                 placeholder: 'Password',
             },
             newPassword: 'New Password',
-            /* tslint:disable:max-line-length */
             emailMarketing: 'Use my personal data to receive e-mail newsletters for marketing campaigns. To change your settings, go to Consent Management in My Account.',
             confirmThatRead: 'I am confirming that I have read and agreed with the',
             selectTitle: 'Select Title',
