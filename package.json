@@ -14,7 +14,7 @@
   "typings": "spartacus-assets.d.ts",
   "metadata": "spartacus-assets.metadata.json",
   "sideEffects": false,
-  "peerDependencies": {
+  "dependencies": {
     "tslib": "^1.10.0"
   }
 }
