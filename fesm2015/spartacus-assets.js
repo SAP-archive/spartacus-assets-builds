@@ -658,7 +658,7 @@ const payment = {
         deleteConfirmation: 'Are you sure you want to delete this payment method?',
         setAsDefault: 'Set as default',
         expires: 'Expires: {{ month }}/{{ year }}',
-        defaultPaymentMethod: 'Default Payment Method',
+        defaultPaymentMethod: '✓ DEFAULT',
         selected: 'Selected',
     },
 };
