@@ -11,6 +11,7 @@ const translationChunksConfig = {
         'miniLogin',
         'skipLink',
         'formErrors',
+        'errorHandlers',
     ],
     cart: [
         'cartDetails',
@@ -392,6 +393,10 @@ const common = {
         cxEmailsMustMatch: 'Email fields must match',
         cxStarRatingEmpty: 'Rating field is required',
         cxNoSelectedItemToCancel: 'Select at least one item to cancel',
+    },
+    errorHandlers: {
+        scriptFailedToLoad: 'Failed to load the script.',
+        refreshThePage: 'Please refresh the page.',
     },
 };
 

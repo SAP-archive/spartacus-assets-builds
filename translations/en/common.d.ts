@@ -125,4 +125,8 @@ export declare const common: {
         cxStarRatingEmpty: string;
         cxNoSelectedItemToCancel: string;
     };
+    errorHandlers: {
+        scriptFailedToLoad: string;
+        refreshThePage: string;
+    };
 };

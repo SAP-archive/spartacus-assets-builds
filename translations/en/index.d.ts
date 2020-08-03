@@ -318,6 +318,10 @@ export declare const en: {
             cxStarRatingEmpty: string;
             cxNoSelectedItemToCancel: string;
         };
+        errorHandlers: {
+            scriptFailedToLoad: string;
+            refreshThePage: string;
+        };
     };
     myAccount: {
         orderDetails: {
