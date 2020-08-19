@@ -1,4 +1,5 @@
-export interface TranslationChunksConfig {
+interface TranslationChunksConfig {
     [chunk: string]: string[];
 }
 export declare const translationChunksConfig: TranslationChunksConfig;
+export {};
