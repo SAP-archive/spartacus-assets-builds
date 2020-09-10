@@ -34,4 +34,9 @@ export declare const payment: {
         defaultPaymentMethod: string;
         selected: string;
     };
+    paymentTypes: {
+        title: string;
+        paymentType_CARD: string;
+        paymentType_ACCOUNT: string;
+    };
 };

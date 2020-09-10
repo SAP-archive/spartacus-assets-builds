@@ -21,6 +21,9 @@ export declare const checkout: {
         orderPlacedSuccessfully: string;
         createAccount: string;
         createAccountForNext: string;
+        placedOn: string;
+        orderNumber: string;
+        status: string;
     };
     checkoutReview: {
         review: string;
@@ -29,8 +32,7 @@ export declare const checkout: {
         placeOrder: string;
         termsAndConditions: string;
         editShippingAddress: string;
-        editShippingMethod: string;
-        editPaymentMethod: string;
+        poNumber: string;
     };
     checkoutShipping: {
         shippingMethod: string;
@@ -39,8 +41,19 @@ export declare const checkout: {
     };
     checkout: {
         backToCart: string;
+        invalid: {
+            accountType: string;
+        };
+    };
+    checkoutPO: {
+        noPoNumber: string;
+        poNumber: string;
+        costCenter: string;
+        placeholder: string;
+        availableLabel: string;
     };
     checkoutProgress: {
+        methodOfPayment: string;
         shippingAddress: string;
         deliveryMode: string;
         paymentDetails: string;

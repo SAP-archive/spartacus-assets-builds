@@ -30,6 +30,7 @@ export declare const user: {
         signIn: string;
         register: string;
         dontHaveAccount: string;
+        guestCheckout: string;
         emailAddress: {
             label: string;
             placeholder: string;
@@ -39,7 +40,6 @@ export declare const user: {
             placeholder: string;
         };
         wrongEmailFormat: string;
-        guestCheckout: string;
     };
     register: {
         confirmPassword: {

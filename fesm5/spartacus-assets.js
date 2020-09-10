@@ -22,7 +22,7 @@ var translationChunksConfig = {
         'saveForLaterItems',
     ],
     address: ['addressForm', 'addressBook', 'addressCard'],
-    payment: ['paymentForm', 'paymentMethods', 'paymentCard'],
+    payment: ['paymentForm', 'paymentMethods', 'paymentCard', 'paymentTypes'],
     myAccount: [
         'orderDetails',
         'orderHistory',
@@ -48,6 +48,7 @@ var translationChunksConfig = {
         'checkoutReview',
         'checkoutShipping',
         'checkoutProgress',
+        'checkoutPO',
     ],
     product: [
         'productDetails',
@@ -66,6 +67,7 @@ var translationChunksConfig = {
         'anonymousConsents',
         'forgottenPassword',
         'loginForm',
+        'loginRegister',
         'register',
         'checkoutLogin',
     ],
@@ -240,6 +242,9 @@ var checkout = {
         orderPlacedSuccessfully: 'Order placed successfully',
         createAccount: 'Create an account?',
         createAccountForNext: 'Create an account for <{{email}}> for a faster checkout on your next visit.',
+        placedOn: 'Placed on',
+        orderNumber: 'Order Number',
+        status: 'Status',
     },
     checkoutReview: {
         review: 'Review',
@@ -248,8 +253,7 @@ var checkout = {
         placeOrder: 'Place Order',
         termsAndConditions: 'Terms & Conditions',
         editShippingAddress: 'Edit shipping address',
-        editShippingMethod: 'Edit shipping method',
-        editPaymentMethod: 'Edit payment method',
+        poNumber: 'Purchase Order Number',
     },
     checkoutShipping: {
         shippingMethod: 'Shipping Method',
@@ -258,12 +262,23 @@ var checkout = {
     },
     checkout: {
         backToCart: 'Back to cart',
+        invalid: {
+            accountType: 'Your account does not allow you to checkout here.',
+        },
+    },
+    checkoutPO: {
+        noPoNumber: 'None',
+        poNumber: 'Purchase order number (optional)',
+        costCenter: 'Cost Center',
+        placeholder: 'Enter P.O',
+        availableLabel: "Shipping addresses available to you depend on the cost center's unit",
     },
     checkoutProgress: {
+        methodOfPayment: 'Method of Payment',
         shippingAddress: 'Shipping Address',
-        deliveryMode: 'Delivery mode',
-        paymentDetails: 'Payment details',
-        reviewOrder: 'Review order',
+        deliveryMode: 'Delivery Mode',
+        paymentDetails: 'Payment Details',
+        reviewOrder: 'Review Order',
     },
 };
 
@@ -403,7 +418,15 @@ var common = {
 var myAccount = {
     orderDetails: {
         orderId: 'Order #',
+        purchaseOrderId: 'Purchase Order #',
+        emptyPurchaseOrderId: 'None',
         placed: 'Placed',
+        placedBy: 'Placed By',
+        unit: 'Unit',
+        costCenter: 'Cost Center',
+        costCenterAndUnit: 'Cost Center / Unit',
+        costCenterAndUnitValue: '{{costCenterName}} / {{unitName}}',
+        payByAccount: 'Pay by Account',
         status: 'Status',
         shippedOn: 'Shipped on',
         deliveryStatus_IN_TRANSIT: 'In Transit',
@@ -666,6 +689,11 @@ var payment = {
         defaultPaymentMethod: '✓ DEFAULT',
         selected: 'Selected',
     },
+    paymentTypes: {
+        title: 'Payment method',
+        paymentType_CARD: 'Credit Card',
+        paymentType_ACCOUNT: 'Account',
+    },
 };
 
 var product = {
@@ -844,6 +872,7 @@ var user = {
         signIn: 'Sign In',
         register: 'Register',
         dontHaveAccount: 'Don’t have an account?',
+        guestCheckout: 'Guest Checkout',
         emailAddress: {
             label: 'Email address',
             placeholder: 'Enter email',
@@ -853,7 +882,6 @@ var user = {
             placeholder: 'Password',
         },
         wrongEmailFormat: 'This is not a valid email format.',
-        guestCheckout: 'Guest Checkout',
     },
     register: {
         confirmPassword: {

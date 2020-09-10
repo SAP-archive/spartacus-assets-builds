@@ -1,7 +1,15 @@
 export declare const myAccount: {
     orderDetails: {
         orderId: string;
+        purchaseOrderId: string;
+        emptyPurchaseOrderId: string;
         placed: string;
+        placedBy: string;
+        unit: string;
+        costCenter: string;
+        costCenterAndUnit: string;
+        costCenterAndUnitValue: string;
+        payByAccount: string;
         status: string;
         shippedOn: string;
         deliveryStatus_IN_TRANSIT: string;

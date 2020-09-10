@@ -30,6 +30,7 @@
     "signIn": "Sign In",
     "register": "Register",
     "dontHaveAccount": "Don’t have an account?",
+    "guestCheckout": "Guest Checkout",
     "emailAddress": {
       "label": "Email address",
       "placeholder": "Enter email"
@@ -38,8 +39,7 @@
       "label": "Password",
       "placeholder": "Password"
     },
-    "wrongEmailFormat": "This is not a valid email format.",
-    "guestCheckout": "Guest Checkout"
+    "wrongEmailFormat": "This is not a valid email format."
   },
   "register": {
     "confirmPassword": {

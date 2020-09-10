@@ -165,6 +165,9 @@ export declare const en: {
             orderPlacedSuccessfully: string;
             createAccount: string;
             createAccountForNext: string;
+            placedOn: string;
+            orderNumber: string;
+            status: string;
         };
         checkoutReview: {
             review: string;
@@ -173,8 +176,7 @@ export declare const en: {
             placeOrder: string;
             termsAndConditions: string;
             editShippingAddress: string;
-            editShippingMethod: string;
-            editPaymentMethod: string;
+            poNumber: string;
         };
         checkoutShipping: {
             shippingMethod: string;
@@ -183,8 +185,19 @@ export declare const en: {
         };
         checkout: {
             backToCart: string;
+            invalid: {
+                accountType: string;
+            };
+        };
+        checkoutPO: {
+            noPoNumber: string;
+            poNumber: string;
+            costCenter: string;
+            placeholder: string;
+            availableLabel: string;
         };
         checkoutProgress: {
+            methodOfPayment: string;
             shippingAddress: string;
             deliveryMode: string;
             paymentDetails: string;
@@ -326,7 +339,15 @@ export declare const en: {
     myAccount: {
         orderDetails: {
             orderId: string;
+            purchaseOrderId: string;
+            emptyPurchaseOrderId: string;
             placed: string;
+            placedBy: string;
+            unit: string;
+            costCenter: string;
+            costCenterAndUnit: string;
+            costCenterAndUnitValue: string;
+            payByAccount: string;
             status: string;
             shippedOn: string;
             deliveryStatus_IN_TRANSIT: string;
@@ -588,6 +609,11 @@ export declare const en: {
             defaultPaymentMethod: string;
             selected: string;
         };
+        paymentTypes: {
+            title: string;
+            paymentType_CARD: string;
+            paymentType_ACCOUNT: string;
+        };
     };
     product: {
         productDetails: {
@@ -762,6 +788,7 @@ export declare const en: {
             signIn: string;
             register: string;
             dontHaveAccount: string;
+            guestCheckout: string;
             emailAddress: {
                 label: string;
                 placeholder: string;
@@ -771,7 +798,6 @@ export declare const en: {
                 placeholder: string;
             };
             wrongEmailFormat: string;
-            guestCheckout: string;
         };
         register: {
             confirmPassword: {
