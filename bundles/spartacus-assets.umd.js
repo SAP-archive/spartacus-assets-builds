@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
     typeof define === 'function' && define.amd ? define('@spartacus/assets', ['exports'], factory) :
-    (global = global || self, factory((global.spartacus = global.spartacus || {}, global.spartacus.assets = {})));
+    (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory((global.spartacus = global.spartacus || {}, global.spartacus.assets = {})));
 }(this, (function (exports) { 'use strict';
 
     var translationChunksConfig = {
@@ -960,6 +960,14 @@
     var translations = {
         en: en,
     };
+
+    /*
+     * Public API Surface of assets
+     */
+
+    /**
+     * Generated bundle index. Do not edit.
+     */
 
     exports.translationChunksConfig = translationChunksConfig;
     exports.translations = translations;

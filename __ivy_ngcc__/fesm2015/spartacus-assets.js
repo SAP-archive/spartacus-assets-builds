@@ -1,4 +1,4 @@
-var translationChunksConfig = {
+const translationChunksConfig = {
     common: [
         'common',
         'spinner',
@@ -73,7 +73,7 @@ var translationChunksConfig = {
     ],
 };
 
-var address = {
+const address = {
     addressForm: {
         title: 'Title',
         firstName: {
@@ -130,7 +130,7 @@ var address = {
     },
 };
 
-var asm = {
+const asm = {
     asm: {
         mainLogoLabel: 'SAP',
         mainTitle: 'Assisted Service Mode',
@@ -169,7 +169,7 @@ var asm = {
     },
 };
 
-var cart = {
+const cart = {
     cartDetails: {
         id: 'ID',
         proceedToCheckout: 'Proceed to Checkout',
@@ -219,7 +219,7 @@ var cart = {
     },
 };
 
-var checkout = {
+const checkout = {
     checkoutAddress: {
         shippingAddress: 'Shipping Address',
         selectYourShippingAddress: 'Select your Shipping Address',
@@ -282,7 +282,7 @@ var checkout = {
     },
 };
 
-var common = {
+const common = {
     common: {
         cancel: 'Cancel',
         delete: 'Delete',
@@ -415,7 +415,7 @@ var common = {
     },
 };
 
-var myAccount = {
+const myAccount = {
     orderDetails: {
         orderId: 'Order #',
         purchaseOrderId: 'Purchase Order #',
@@ -653,7 +653,7 @@ var myAccount = {
     },
 };
 
-var payment = {
+const payment = {
     paymentForm: {
         payment: 'Payment',
         choosePaymentMethod: 'Choose a payment method',
@@ -696,7 +696,7 @@ var payment = {
     },
 };
 
-var product = {
+const product = {
     productDetails: {
         id: 'ID',
         quantity: 'Qty',
@@ -806,7 +806,7 @@ var product = {
     },
 };
 
-var pwa = {
+const pwa = {
     pwa: {
         addToHomeScreenDescription: 'Add SAP storefront to your device homescreen for a faster return visit',
         noInstallationNeeded: 'No installation needed',
@@ -816,7 +816,7 @@ var pwa = {
     },
 };
 
-var storeFinder = {
+const storeFinder = {
     storeFinder: {
         openUntil: 'Open until',
         closed: 'Closed',
@@ -840,7 +840,7 @@ var storeFinder = {
     },
 };
 
-var user = {
+const user = {
     anonymousConsents: {
         preferences: 'Consent Preferences',
         dialog: {
@@ -937,22 +937,22 @@ var user = {
     },
 };
 
-var en = {
-    address: address,
-    asm: asm,
-    cart: cart,
-    checkout: checkout,
-    common: common,
-    myAccount: myAccount,
-    payment: payment,
-    product: product,
-    pwa: pwa,
-    storeFinder: storeFinder,
-    user: user,
+const en = {
+    address,
+    asm,
+    cart,
+    checkout,
+    common,
+    myAccount,
+    payment,
+    product,
+    pwa,
+    storeFinder,
+    user,
 };
 
-var translations = {
-    en: en,
+const translations = {
+    en,
 };
 
 /*
@@ -964,4 +964,5 @@ var translations = {
  */
 
 export { translationChunksConfig, translations, en as ɵa, address as ɵb, asm as ɵc, cart as ɵd, checkout as ɵe, common as ɵf, myAccount as ɵg, payment as ɵh, product as ɵi, pwa as ɵj, storeFinder as ɵk, user as ɵl };
+
 //# sourceMappingURL=spartacus-assets.js.map
