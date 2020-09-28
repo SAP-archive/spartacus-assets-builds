@@ -9,7 +9,9 @@
     "continue": "Continue",
     "save": "Save",
     "done": "Done",
-    "home": "Home"
+    "home": "Home",
+    "noData": "No data.",
+    "confirm": "Confirm"
   },
   "pageMetaResolver": {
     "category": {
@@ -123,7 +125,11 @@
     "cxPasswordsMustMatch": "Password fields must match",
     "cxEmailsMustMatch": "Email fields must match",
     "cxStarRatingEmpty": "Rating field is required",
-    "cxNoSelectedItemToCancel": "Select at least one item to cancel"
+    "cxNoSelectedItemToCancel": "Select at least one item to cancel",
+    "cxDateMin": "Date cannot be before {{min}}",
+    "cxDateMax": "Date cannot be after {{max}}",
+    "cxNegativeAmount": "Amount must be equal or greater than zero",
+    "cxContainsSpecialCharacters": "Field cannot contain special characters"
   },
   "errorHandlers": {
     "scriptFailedToLoad": "Failed to load the script.",

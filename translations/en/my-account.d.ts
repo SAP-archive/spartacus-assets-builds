@@ -3,6 +3,7 @@ export declare const myAccount: {
         orderId: string;
         purchaseOrderId: string;
         emptyPurchaseOrderId: string;
+        none: string;
         placed: string;
         placedBy: string;
         unit: string;
@@ -10,6 +11,7 @@ export declare const myAccount: {
         costCenterAndUnit: string;
         costCenterAndUnitValue: string;
         payByAccount: string;
+        paidByCreditCard: string;
         status: string;
         shippedOn: string;
         deliveryStatus_IN_TRANSIT: string;
@@ -34,6 +36,21 @@ export declare const myAccount: {
         statusDisplay_Error: string;
         statusDisplay_processing: string;
         statusDisplay_open: string;
+        statusDisplay_pending: {
+            approval: string;
+            merchant: {
+                approval: string;
+            };
+        };
+        statusDisplay_approved: string;
+        statusDisplay_rejected: string;
+        statusDisplay_merchant: {
+            approved: string;
+            rejected: string;
+        };
+        statusDisplay_assigned: {
+            admin: string;
+        };
         consignmentTracking: {
             action: string;
             dialog: {
@@ -59,6 +76,17 @@ export declare const myAccount: {
             submit: string;
             returnSuccess: string;
             cancelSuccess: string;
+        };
+        approvalDetails: {
+            header: string;
+            permission: string;
+            approver: string;
+            status: string;
+            approverComments: string;
+            noApprovalNotes: string;
+            permissionType_B2BBudgetExceededPermission: string;
+            permissionType_B2BOrderThresholdPermission: string;
+            permissionType_B2BOrderThresholdTimespanPermission: string;
         };
     };
     orderHistory: {

@@ -47,7 +47,7 @@ export declare const user: {
             label: string;
             placeholder: string;
         };
-        managmentInMyAccount: string;
+        managementInMyAccount: string;
         termsAndConditions: string;
         signIn: string;
         register: string;

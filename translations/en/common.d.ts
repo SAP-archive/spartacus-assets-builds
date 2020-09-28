@@ -10,6 +10,8 @@ export declare const common: {
         save: string;
         done: string;
         home: string;
+        noData: string;
+        confirm: string;
     };
     pageMetaResolver: {
         category: {
@@ -124,6 +126,10 @@ export declare const common: {
         cxEmailsMustMatch: string;
         cxStarRatingEmpty: string;
         cxNoSelectedItemToCancel: string;
+        cxDateMin: string;
+        cxDateMax: string;
+        cxNegativeAmount: string;
+        cxContainsSpecialCharacters: string;
     };
     errorHandlers: {
         scriptFailedToLoad: string;

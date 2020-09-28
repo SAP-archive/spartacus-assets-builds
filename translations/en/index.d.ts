@@ -216,6 +216,8 @@ export declare const en: {
             save: string;
             done: string;
             home: string;
+            noData: string;
+            confirm: string;
         };
         pageMetaResolver: {
             category: {
@@ -330,6 +332,10 @@ export declare const en: {
             cxEmailsMustMatch: string;
             cxStarRatingEmpty: string;
             cxNoSelectedItemToCancel: string;
+            cxDateMin: string;
+            cxDateMax: string;
+            cxNegativeAmount: string;
+            cxContainsSpecialCharacters: string;
         };
         errorHandlers: {
             scriptFailedToLoad: string;
@@ -341,6 +347,7 @@ export declare const en: {
             orderId: string;
             purchaseOrderId: string;
             emptyPurchaseOrderId: string;
+            none: string;
             placed: string;
             placedBy: string;
             unit: string;
@@ -348,6 +355,7 @@ export declare const en: {
             costCenterAndUnit: string;
             costCenterAndUnitValue: string;
             payByAccount: string;
+            paidByCreditCard: string;
             status: string;
             shippedOn: string;
             deliveryStatus_IN_TRANSIT: string;
@@ -372,6 +380,21 @@ export declare const en: {
             statusDisplay_Error: string;
             statusDisplay_processing: string;
             statusDisplay_open: string;
+            statusDisplay_pending: {
+                approval: string;
+                merchant: {
+                    approval: string;
+                };
+            };
+            statusDisplay_approved: string;
+            statusDisplay_rejected: string;
+            statusDisplay_merchant: {
+                approved: string;
+                rejected: string;
+            };
+            statusDisplay_assigned: {
+                admin: string;
+            };
             consignmentTracking: {
                 action: string;
                 dialog: {
@@ -397,6 +420,17 @@ export declare const en: {
                 submit: string;
                 returnSuccess: string;
                 cancelSuccess: string;
+            };
+            approvalDetails: {
+                header: string;
+                permission: string;
+                approver: string;
+                status: string;
+                approverComments: string;
+                noApprovalNotes: string;
+                permissionType_B2BBudgetExceededPermission: string;
+                permissionType_B2BOrderThresholdPermission: string;
+                permissionType_B2BOrderThresholdTimespanPermission: string;
             };
         };
         orderHistory: {
@@ -805,7 +839,7 @@ export declare const en: {
                 label: string;
                 placeholder: string;
             };
-            managmentInMyAccount: string;
+            managementInMyAccount: string;
             termsAndConditions: string;
             signIn: string;
             register: string;
