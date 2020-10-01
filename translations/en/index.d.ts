@@ -165,18 +165,34 @@ export declare const en: {
             orderPlacedSuccessfully: string;
             createAccount: string;
             createAccountForNext: string;
+            replenishmentNumber: string;
             placedOn: string;
-            orderNumber: string;
             status: string;
+            active: string;
+            cancelled: string;
+            frequency: string;
+            nextOrderDate: string;
+            orderNumber: string;
         };
         checkoutReview: {
             review: string;
             orderItems: string;
+            autoReplenishOrder: string;
             confirmThatRead: string;
             placeOrder: string;
+            scheduleReplenishmentOrder: string;
+            orderType_PLACE_ORDER: string;
+            orderType_SCHEDULE_REPLENISHMENT_ORDER: string;
             termsAndConditions: string;
             editShippingAddress: string;
             poNumber: string;
+            every: string;
+            startOn: string;
+            dayOfMonth: string;
+            repeatOnDays: string;
+            recurrencePeriodType_DAILY: string;
+            recurrencePeriodType_WEEKLY: string;
+            recurrencePeriodType_MONTHLY: string;
         };
         checkoutShipping: {
             shippingMethod: string;
@@ -259,6 +275,8 @@ export declare const en: {
             date: string;
             orderNumber: string;
             rma: string;
+            replenishmentNumber: string;
+            nextOrderDate: string;
         };
         httpHandlers: {
             badGateway: string;
@@ -345,6 +363,7 @@ export declare const en: {
     myAccount: {
         orderDetails: {
             orderId: string;
+            replenishmentId: string;
             purchaseOrderId: string;
             emptyPurchaseOrderId: string;
             none: string;
@@ -358,6 +377,10 @@ export declare const en: {
             paidByCreditCard: string;
             status: string;
             shippedOn: string;
+            startOn: string;
+            nextOrderDate: string;
+            frequency: string;
+            cancelled: string;
             deliveryStatus_IN_TRANSIT: string;
             deliveryStatus_READY_FOR_PICKUP: string;
             deliveryStatus_READY_FOR_SHIPPING: string;
@@ -421,6 +444,13 @@ export declare const en: {
                 returnSuccess: string;
                 cancelSuccess: string;
             };
+            cancelReplenishment: {
+                title: string;
+                description: string;
+                accept: string;
+                reject: string;
+                cancelSuccess: string;
+            };
             approvalDetails: {
                 header: string;
                 permission: string;
@@ -436,12 +466,24 @@ export declare const en: {
         orderHistory: {
             orderHistory: string;
             orderId: string;
+            emptyPurchaseOrderId: string;
             date: string;
             status: string;
             total: string;
             noOrders: string;
+            noReplenishmentOrders: string;
             startShopping: string;
             sortByMostRecent: string;
+            replenishmentOrderHistory: string;
+            replenishmentOrderId: string;
+            purchaseOrderNumber: string;
+            startOn: string;
+            frequency: string;
+            nextOrderDate: string;
+            cancel: string;
+            cancelled: string;
+            replenishmentHistory: string;
+            notFound: string;
         };
         closeAccount: {
             confirmAccountClosure: string;

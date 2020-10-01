@@ -1,6 +1,7 @@
 export declare const myAccount: {
     orderDetails: {
         orderId: string;
+        replenishmentId: string;
         purchaseOrderId: string;
         emptyPurchaseOrderId: string;
         none: string;
@@ -14,6 +15,10 @@ export declare const myAccount: {
         paidByCreditCard: string;
         status: string;
         shippedOn: string;
+        startOn: string;
+        nextOrderDate: string;
+        frequency: string;
+        cancelled: string;
         deliveryStatus_IN_TRANSIT: string;
         deliveryStatus_READY_FOR_PICKUP: string;
         deliveryStatus_READY_FOR_SHIPPING: string;
@@ -77,6 +82,13 @@ export declare const myAccount: {
             returnSuccess: string;
             cancelSuccess: string;
         };
+        cancelReplenishment: {
+            title: string;
+            description: string;
+            accept: string;
+            reject: string;
+            cancelSuccess: string;
+        };
         approvalDetails: {
             header: string;
             permission: string;
@@ -92,12 +104,24 @@ export declare const myAccount: {
     orderHistory: {
         orderHistory: string;
         orderId: string;
+        emptyPurchaseOrderId: string;
         date: string;
         status: string;
         total: string;
         noOrders: string;
+        noReplenishmentOrders: string;
         startShopping: string;
         sortByMostRecent: string;
+        replenishmentOrderHistory: string;
+        replenishmentOrderId: string;
+        purchaseOrderNumber: string;
+        startOn: string;
+        frequency: string;
+        nextOrderDate: string;
+        cancel: string;
+        cancelled: string;
+        replenishmentHistory: string;
+        notFound: string;
     };
     closeAccount: {
         confirmAccountClosure: string;

@@ -21,18 +21,34 @@ export declare const checkout: {
         orderPlacedSuccessfully: string;
         createAccount: string;
         createAccountForNext: string;
+        replenishmentNumber: string;
         placedOn: string;
-        orderNumber: string;
         status: string;
+        active: string;
+        cancelled: string;
+        frequency: string;
+        nextOrderDate: string;
+        orderNumber: string;
     };
     checkoutReview: {
         review: string;
         orderItems: string;
+        autoReplenishOrder: string;
         confirmThatRead: string;
         placeOrder: string;
+        scheduleReplenishmentOrder: string;
+        orderType_PLACE_ORDER: string;
+        orderType_SCHEDULE_REPLENISHMENT_ORDER: string;
         termsAndConditions: string;
         editShippingAddress: string;
         poNumber: string;
+        every: string;
+        startOn: string;
+        dayOfMonth: string;
+        repeatOnDays: string;
+        recurrencePeriodType_DAILY: string;
+        recurrencePeriodType_WEEKLY: string;
+        recurrencePeriodType_MONTHLY: string;
     };
     checkoutShipping: {
         shippingMethod: string;

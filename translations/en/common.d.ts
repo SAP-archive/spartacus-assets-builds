@@ -53,6 +53,8 @@ export declare const common: {
         date: string;
         orderNumber: string;
         rma: string;
+        replenishmentNumber: string;
+        nextOrderDate: string;
     };
     httpHandlers: {
         badGateway: string;
