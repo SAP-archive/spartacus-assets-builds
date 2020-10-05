@@ -14,5 +14,3 @@ export { product as ɵi } from './translations/en/product';
 export { pwa as ɵj } from './translations/en/pwa';
 export { storeFinder as ɵk } from './translations/en/store-finder';
 export { user as ɵl } from './translations/en/user';
-
-//# sourceMappingURL=spartacus-assets.d.ts.map
