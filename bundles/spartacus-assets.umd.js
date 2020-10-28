@@ -172,6 +172,9 @@
                 reset: 'Reset',
             },
             standardSessionInProgress: 'Standard customer session in progress.',
+            auth: {
+                agentLoggedInError: 'Cannot login as user when there is an active CS agent session. Please either emulate user or logout CS agent.',
+            },
         },
     };
 
@@ -370,6 +373,7 @@
             forbidden: 'You are not authorized to perform this action.',
             gatewayTimeout: 'The server did not respond, please try again later.',
             internalServerError: 'An Internal Server Error occurred. Please try again later.',
+            sessionExpired: 'Your session has expired. Please login again.',
             unknownError: 'An unknown error occurred',
             unauthorized: {
                 common: 'An unknown authorization error occured',

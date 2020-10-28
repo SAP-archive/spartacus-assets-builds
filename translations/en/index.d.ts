@@ -91,6 +91,9 @@ export declare const en: {
                 reset: string;
             };
             standardSessionInProgress: string;
+            auth: {
+                agentLoggedInError: string;
+            };
         };
     };
     cart: {
@@ -286,6 +289,7 @@ export declare const en: {
             forbidden: string;
             gatewayTimeout: string;
             internalServerError: string;
+            sessionExpired: string;
             unknownError: string;
             unauthorized: {
                 common: string;

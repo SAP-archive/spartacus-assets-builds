@@ -34,5 +34,8 @@ export declare const asm: {
             reset: string;
         };
         standardSessionInProgress: string;
+        auth: {
+            agentLoggedInError: string;
+        };
     };
 };

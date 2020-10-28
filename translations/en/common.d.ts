@@ -64,6 +64,7 @@ export declare const common: {
         forbidden: string;
         gatewayTimeout: string;
         internalServerError: string;
+        sessionExpired: string;
         unknownError: string;
         unauthorized: {
             common: string;
