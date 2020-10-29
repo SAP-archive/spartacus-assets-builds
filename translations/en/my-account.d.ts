@@ -89,17 +89,6 @@ export declare const myAccount: {
             reject: string;
             cancelSuccess: string;
         };
-        approvalDetails: {
-            header: string;
-            permission: string;
-            approver: string;
-            status: string;
-            approverComments: string;
-            noApprovalNotes: string;
-            permissionType_B2BBudgetExceededPermission: string;
-            permissionType_B2BOrderThresholdPermission: string;
-            permissionType_B2BOrderThresholdTimespanPermission: string;
-        };
     };
     orderHistory: {
         orderHistory: string;
