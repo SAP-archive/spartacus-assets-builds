@@ -614,6 +614,7 @@ const myAccount = {
         },
         lastNameIsRequired: 'Last name is required.',
         profileUpdateSuccess: 'Personal details successfully updated',
+        customerId: 'Customer #',
     },
     consentManagementForm: {
         clearAll: 'Clear all',

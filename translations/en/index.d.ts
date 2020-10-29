@@ -535,6 +535,7 @@ export declare const en: {
             };
             lastNameIsRequired: string;
             profileUpdateSuccess: string;
+            customerId: string;
         };
         consentManagementForm: {
             clearAll: string;

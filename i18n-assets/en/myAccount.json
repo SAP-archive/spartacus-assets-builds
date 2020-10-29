@@ -168,7 +168,8 @@
       "placeholder": "Last name"
     },
     "lastNameIsRequired": "Last name is required.",
-    "profileUpdateSuccess": "Personal details successfully updated"
+    "profileUpdateSuccess": "Personal details successfully updated",
+    "customerId": "Customer #"
   },
   "consentManagementForm": {
     "clearAll": "Clear all",

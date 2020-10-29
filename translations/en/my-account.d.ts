@@ -169,6 +169,7 @@ export declare const myAccount: {
         };
         lastNameIsRequired: string;
         profileUpdateSuccess: string;
+        customerId: string;
     };
     consentManagementForm: {
         clearAll: string;
