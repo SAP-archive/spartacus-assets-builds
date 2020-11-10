@@ -24,6 +24,7 @@ export declare const cart: {
         salesTax: string;
         grossTax: string;
         total: string;
+        toBeDetermined: string;
     };
     voucher: {
         coupon: string;

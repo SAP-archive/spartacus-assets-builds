@@ -122,6 +122,7 @@ export declare const en: {
             salesTax: string;
             grossTax: string;
             total: string;
+            toBeDetermined: string;
         };
         voucher: {
             coupon: string;
