@@ -804,29 +804,6 @@ export declare const en: {
             addedToHomeScreen: string;
         };
     };
-    storeFinder: {
-        storeFinder: {
-            openUntil: string;
-            closed: string;
-            call: string;
-            getDirections: string;
-            listView: string;
-            mapView: string;
-            noStoresFound: string;
-            storeHours: string;
-            storeFeatures: string;
-            fromStoresFound: string;
-            fromStoresFound_plural: string;
-            findStore: string;
-            useMyLocation: string;
-            viewAllStores: string;
-            contactUs: string;
-            searchBox: string;
-            backToList: string;
-            noStoresMessage: string;
-            geolocationNotEnabled: string;
-        };
-    };
     user: {
         anonymousConsents: {
             preferences: string;
