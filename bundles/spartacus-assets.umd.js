@@ -437,7 +437,7 @@
             cxPasswordsMustMatch: 'Password fields must match',
             cxEmailsMustMatch: 'Email fields must match',
             cxStarRatingEmpty: 'Rating field is required',
-            cxNoSelectedItemToCancel: 'Select at least one item to cancel',
+            cxNoSelectedItemToCancel: 'Select at least one item',
             cxDateMin: 'Date cannot be before {{min}}',
             cxDateMax: 'Date cannot be after {{max}}',
             cxNegativeAmount: 'Amount must be equal or greater than zero',
