@@ -355,10 +355,15 @@ export declare const en: {
             cxEmailsMustMatch: string;
             cxStarRatingEmpty: string;
             cxNoSelectedItemToCancel: string;
-            cxDateMin: string;
-            cxDateMax: string;
             cxNegativeAmount: string;
             cxContainsSpecialCharacters: string;
+            date: {
+                required: string;
+                min: string;
+                max: string;
+                pattern: string;
+                invalid: string;
+            };
         };
         errorHandlers: {
             scriptFailedToLoad: string;

@@ -1014,4 +1014,5 @@ const translations = {
  */
 
 export { translationChunksConfig, translations, en as ɵa, address as ɵb, asm as ɵc, cart as ɵd, checkout as ɵe, common as ɵf, myAccount as ɵg, payment as ɵh, product as ɵi, pwa as ɵj, user as ɵk };
+
 //# sourceMappingURL=spartacus-assets.js.map
