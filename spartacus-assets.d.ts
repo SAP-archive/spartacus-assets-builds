@@ -13,5 +13,3 @@ export { payment as ɵh } from './translations/en/payment';
 export { product as ɵi } from './translations/en/product';
 export { pwa as ɵj } from './translations/en/pwa';
 export { user as ɵk } from './translations/en/user';
-
-//# sourceMappingURL=spartacus-assets.d.ts.map
