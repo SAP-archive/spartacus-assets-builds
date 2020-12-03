@@ -321,6 +321,7 @@ export declare const en: {
                     lastName: string;
                     password: string;
                     uid: string;
+                    code: string;
                 };
             };
             cartNotFound: string;
