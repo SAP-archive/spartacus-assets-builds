@@ -96,7 +96,6 @@ export declare const common: {
                 password: string;
                 uid: string;
                 code: string;
-                email: string;
             };
         };
         cartNotFound: string;
