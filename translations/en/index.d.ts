@@ -94,6 +94,9 @@ export declare const en: {
             auth: {
                 agentLoggedInError: string;
             };
+            error: {
+                noCustomerId: string;
+            };
         };
     };
     cart: {

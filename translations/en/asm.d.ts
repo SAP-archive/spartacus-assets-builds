@@ -37,5 +37,8 @@ export declare const asm: {
         auth: {
             agentLoggedInError: string;
         };
+        error: {
+            noCustomerId: string;
+        };
     };
 };
